@@ -30,6 +30,6 @@
   response:(hsym`$url) request;
   handle:response 0; / if needed, http message in response 1
   upsert[`.ws.conns;(handle;`$host; callback)];
-  0N!(.z.Z;"ws open";f);   
+  0N!(.z.Z;"ws open";handle);   
   neg handle};
 

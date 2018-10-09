@@ -29,7 +29,7 @@
 
   pimport:.py[module];
   pobject:pimport hsym class;
-  pinstance:.[pobject;.ut.safeEnlist args];
+  pinstance:.[pobject;.ut.enlist args];
   pcontext:functions!pinstance[;<]'[(hsym @\:functions)];
   qinstance:pcontext,(`attr`help`pget`pset!({[x;y].py.get_inst_attr[x]}[pinstance];{[x;y;z].py.imports[x;y]}[module;class];.py.pget[pinstance];.py.pset[pinstance]));
   qinstance};

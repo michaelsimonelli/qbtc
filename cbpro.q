@@ -7,7 +7,7 @@
 .ut.params.registerRequired[`cbpro;`CBPRO_PRIV_PASSPHRASE;`;`;"API private passphrase"];
 
 .feed.productCache:{[]
-  p:.cb.client.get_products[];
+  p:client.get_products[];
   t:exec c!t from meta p;
   p:{[t;p]
     k:where null t;
@@ -17,47 +17,39 @@
   update sym:`$(string[base_currency],'string[quote_currency]) from "SSSFFFSSbSFFbbb"$/:p
   };
 
-(`type`product_ids`channels)!("subscribe"; .feed.products; .feed.channels)
-
-
 .cb.init.main:{[]
-  api:.cb.cfg.api;
-  feed:.cb.cfg.feed;
+  params:.ut.params.get[`cbpro];
 
-  .cb.book.init[];
+  .book.init[];
   
-  .cbpro.client:.cbpro.AuthenticatedClient[.api.priv[`key`secret`passphrase]];
-  .cbpro.client.pset[`url;.api.url];
+  auth:params[`CBPRO_PRIV_KEY`CBPRO_PRIV_SECRET`CBPRO_PRIV_PASSPHRASE];
 
-  .cb.feed.products:.cb.feed.productCache[];
-  .cb.admin.accounts:"SSFFFS"$/:.cb.client.get_accounts[];
+  client:.cbpro.AuthenticatedClient[auth];
+  client.pset[`url;.api.url];
 
-  .feed.handle:.ws.o[.feed.url;`.feed.upd];
+  .feed.refdata:.feed.productCache[];
+  .admin.accounts:"SSFFFS"$/:client.get_accounts[];
+
+  .feed.handle:.ws.open[.feed.url;`.feed.upd;`];
 
   .feed.sub[.feed.handle;.feed.products;.feed.channels];
   
   };
-
-\c 500 500
-.book.init[]
-.feed.handle:.ws.o[.feed.url;`.feed.upd];
-.feed.sub[.feed.handle;.feed.products;.feed.channels]
-.feed.usub[.feed.handle;.feed.products;.feed.channels]
-
-
-
-init:{[]
-  getenv `CBRPO_PRIV_KEY
-  CBRPO_PRIV_SECRET
-  CBRPO_PRIV_PASSPHRASE
-  };
+  
+.feed.upd:{
+  e:.j.k x;
+  t:`$e`type;
+  0N!e;
+  if[t in key .evt;
+    .evt[t]e];
+  }
 
 .cbpro.getAccounts:{
-  accs:"SSFFFS"$/:.cbpro.client.get_accounts[];
+  accs:"SSFFFS"$/:client.get_accounts[];
   accs};
 
 .cbpro.getAccountHistory:{[accountId]
-  accPage:.cbpro.client.get_account_history[accountId];
+  accPage:client.get_account_history[accountId];
   accHist:"ZjFFS*"$/:`time`id`amount`balance`typ`details xcol .py.list[accPage];
   accHist};
 

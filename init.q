@@ -11,9 +11,6 @@
 .data.trade:([] time:`timestamp$();sym:`symbol$();price:`float$();bid:`float$();ask:`float$();side:`$();size:`float$();id:`long$());
 
 .api.url:"https://api-public.sandbox.pro.coinbase.com";
-/`CBRPO_PRIV_KEY setenv .api.priv.key:"d7d381cdbb3d0de770cea8a637aa0379";
-/`CBRPO_PRIV_SECRET setenv .api.priv.secret:`$"AnXRvi7fgsF7mCcRIibJB4tx2DSoxN1ovcusZcviJggkwYMzMFSekW82Y94CzJScUArSiBe6uOMkafDpWs/cpw==";
-/`CBRPO_PRIV_PASSPHRASE setenv .api.priv.passphrase:`$"ue37tvk07q9";
 
 .feed.url:"wss://ws-feed-public.sandbox.pro.coinbase.com";
 .feed.url:"wss://ws-feed.pro.coinbase.com";
@@ -118,15 +115,15 @@
   };
 
 .feed.sub:{[h;p;c]
-  p:.ut.safeEnlist p;
+  p:.ut.enlist p;
   c:c union `heartbeat;
   s:.j.j (`type`product_ids`channels)!("subscribe"; p; c);
   h[s];
   };
 
 .feed.usub:{[h;p;c]
-  p:.ut.safeEnlist p;
-  c:.ut.safeEnlist c;
+  p:.ut.enlist p;
+  c:.ut.enlist c;
   s:.j.j (`type`product_ids`channels)!("unsubscribe"; p; c);
   h[s];
   };  
