@@ -1,0 +1,11 @@
+#!/bin/bash
+
+. ./resetqenv
+
+export QPORT=5000
+export CBPRO_ENV="dev"
+export CBPRO_PRIV_KEY=""
+export CBPRO_PRIV_SECRET=""
+export CBPRO_PRIV_PASSPHRASE=""
+
+q -p $QPORT
