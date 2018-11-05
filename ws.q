@@ -32,4 +32,3 @@
   upsert[`.ws.conns;(handle;`$host; callback)];
   0N!(.z.Z;"ws open";handle);   
   neg handle};
-

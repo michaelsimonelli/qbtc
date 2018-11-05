@@ -1,19 +1,18 @@
 import inspect
 
 
-"""Python q reflection functions. 
-
-Utility module for py.q embedPy framework.
-Provides metadata and type information for imported python modules
-"""
+# Python q reflection functions.
+#
+# Utility module for py.q embedPy framework.
+# Provides metadata and type information for imported python modules
 
 
 def get_mod_info(py_mod):
-    _get_module_info(py_mod)
+    return _get_module_info(py_mod)
 
 
 def get_inst_attr(py_inst):
-    _get_instance_attributes(py_inst)
+    return _get_instance_attributes(py_inst)
 
 
 def get_type(py_obj):
@@ -231,8 +230,8 @@ def _is_class_method(method):
         name = method.__name__
         py_class = _get_class_that_defined_component(method)
         if name in py_class.__dict__:
-            binded_value = py_class.__dict__[name]
-            if isinstance(binded_value, classmethod):
+            bind_value = py_class.__dict__[name]
+            if isinstance(bind_value, classmethod):
                 return True
 
     return False

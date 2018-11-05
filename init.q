@@ -1,8 +1,8 @@
 
-\l ut.q
 \l ws.q
-\l py.q
 
+.ut.params.registerOptional[`ob; `BOOK_DEPTH;  25;  `; "Book depth"];
+.ut.params.registerOptional[`ob; `STATE_DEPTH; 500; `; "State depth"];
 
 .data.md:([sym:`symbol$()]bp:`float$();ap:`float$();tp:`float$();vwap:`float$());
 
@@ -17,17 +17,17 @@
 .feed.products:`$("BTC-USD";"ETH-USD";"ETH-BTC");
 .feed.channels:(`level2`ticker);
 
-.book.symbols:.Q.id each .feed.products;
-.book.depth:25;
 
-.state.depth:.book.depth*5;
 
-.book.init:{[]
-  .state,:.ut.repeat[`bids`asks;.ut.repeat[.book.symbols;enlist(`float$())!`float$()]];
-  emptyBook:(enlist `bids)!enlist .ut.repeat[.book.symbols;([]bids:`float$();bqty:`float$())];
-  emptyBook,:(enlist `asks)!enlist .ut.repeat[.book.symbols;([]asks:`float$();aqty:`float$())];
-  .book,:emptyBook;
-  };
+.book.bids.:(::);
+.book.asks.:(::);
+
+.state.bids.:(::);
+.state.asks.:(::);
+
+.book.cut:{x sublist y}[.ut.params.get[`ob]`BOOK_DEPTH];
+.state.cut:{x sublist y}[.ut.params.get[`ob]`STATE_DEPTH];
+
 
 .book.full:{[sym] (,'/).book[`bids`asks;sym]};
 
@@ -49,12 +49,12 @@
 
 .state.sort:{[side;data]
   sortF:$[`bids=side;desc;asc];
-  sortD:.state.depth sublist (sortF[key data]#data);
+  sortD:.state.cut (sortF[key data]#data);
   sortD};
 
 .state.updBook:{[side;sym]
   head:side,$[side=`bids;`bqty;`aqty];
-  book:flip head!.book.depth sublist'(key;value)@\:.state[side;sym];
+  book:flip head!.book.cut'(key;value)@\:.state[side;sym];
   if[updBK:not .book[side;sym]~book;
     .book[side;sym]:book];
   updBK};
@@ -102,7 +102,7 @@
   x:"SSFF"$x;
   x:@[x;`product_id;.Q.id];
   x:@[x;`bids`asks;{(!/) flip x}];
-  {.state[y;x`product_id]:.state.depth sublist x y}[x]'[`bids`asks];
+  {.state[y;x`product_id]:.state.cut x y}[x] each `bids`asks;
   .state.rebalance[;x`product_id] each `bids`asks;
   .upd.md[x`product_id;`;0b];
   };

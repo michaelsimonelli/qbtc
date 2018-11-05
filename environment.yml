@@ -1,7 +1,6 @@
 name: cbpro
 dependencies:
-- python>=3.6
-- anaconda
+- python>=3.5
 - pip
 - kx::embedPy
 - pip:

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script checks if an existing QHOME environment was configured
+# If so, it points the envvars to the conda q installation
 . ./resetqenv
 
 export QPORT=5000
