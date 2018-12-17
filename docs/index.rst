@@ -1,7 +1,4 @@
-.. cbproQ documentation master file, created by
-   sphinx-quickstart on Mon Dec 17 08:53:29 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. include:: ../README.rst
 
 Welcome to cbproQ's documentation!
 ==================================
