@@ -24,7 +24,7 @@ Setup
 Requirements
 ------------
 - Anaconda Python
-- Coinbase Pro account (live or sandbox)
+- Coinbase Pro account (sandbox strongly suggested)
 - *All testing performed on Ubuntu 18.04*
 
 Install
@@ -35,4 +35,35 @@ Install
 
 .. code:: bash
 
-    conda create env -f environment.yml
+    $conda create env -f environment.yml
+
+**Note:** The conda environment will download and install all required dependencies, including its own 64-bit kdb/q installation.
+The first time you run q from this environment, you will be prompted by a standard license agreement message and will be asked to enter some personal details such as Name and email address. Make sure to enter a valid email address because you will be asked to confirm your email address within 72 hours or your license will expire. If you already have a kdb+ license associated with your email address then kdb will just use that license after you enter that email address.
+
+Configuration
+-------------
+The Coinbase Pro API key is required to run cbproQ
+The API key is provided to kdb via the following envrinment variables
+- CBPRO_PRIV_KEY
+- CBPRO_PRIV_SECRET
+- CBPRO_PRIV_PASSPHRASE
+
+An example startup script is included to provide your API key and launch cbproQ.
+Please reference *startup_example* for details
+
+Start
+-----
+
+**Step 1** Activate conda environment. In terminal run:
+
+*Note:* Environment name can be changed via environment.yml, cbpro is the default.
+
+.. code:: bash
+
+	$conda activate cbpro
+
+**Step 2** Initialze KDB.  In terminal run:
+
+.. code:: bash
+
+	$./startup_example
