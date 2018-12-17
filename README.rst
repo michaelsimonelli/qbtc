@@ -33,12 +33,6 @@ Install
 
 **Step 2** Create conda environment. In terminal run:
 
-Install the package (or add it to your ``requirements.txt`` file):
-
-.. code:: bash
-
-    pip install sphinx_rtd_theme
-
 .. code:: bash
 
     conda create env -f environment.yml
