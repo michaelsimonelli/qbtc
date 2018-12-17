@@ -35,7 +35,7 @@ Install
 
 .. code:: bash
 
-    $conda create env -f environment.yml
+    conda create env -f environment.yml
 
 **Note:** The conda environment will download and install all required dependencies, including its own 64-bit kdb/q installation.
 The first time you run q from this environment, you will be prompted by a standard license agreement message and will be asked to enter some personal details such as Name and email address. Make sure to enter a valid email address because you will be asked to confirm your email address within 72 hours or your license will expire. If you already have a kdb+ license associated with your email address then kdb will just use that license after you enter that email address.
@@ -60,10 +60,10 @@ Start
 
 .. code:: bash
 
-	$conda activate cbpro
+    conda activate cbpro
 
 **Step 2** Initialze KDB.  In terminal run:
 
 .. code:: bash
 
-	$./startup_example
+    ./startup_example
