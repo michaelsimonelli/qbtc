@@ -67,3 +67,11 @@ Start
 .. code:: bash
 
     ./startup_example
+
+
+
+
+.. code:: kdb
+
+    tmpD:`a`b`c!1 2 3
+    
