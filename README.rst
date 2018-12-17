@@ -43,7 +43,8 @@ The first time you run q from this environment, you will be prompted by a standa
 Configuration
 -------------
 The Coinbase Pro API key is required to run cbproQ
-The API key is provided to kdb via the following envrinment variables
+The API key is provided to kdb via the following envrinment variables:
+
 - CBPRO_PRIV_KEY
 - CBPRO_PRIV_SECRET
 - CBPRO_PRIV_PASSPHRASE
@@ -68,6 +69,9 @@ Start
 
     ./startup_example
 
+
+
+safe check:
 
 
 
