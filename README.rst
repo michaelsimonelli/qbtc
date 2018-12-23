@@ -75,7 +75,77 @@ safe check yadda ydasdf
 
 .. code-block:: q
   
-  /# @function list Wrapper around .p.import
+
+  .py.list:.py.builtin[`:list;<];
+
+  list:builtin[`:list;<];
+
+  list:builtin[`:list;<];
+
+  /# @function import Wrapper around .p.import
+  /#  Auto-maps the python module to native kdb functions
+  /#  Auto-generates module metadata reference dictionary
+  /# @param module (sym) module argument
+  .py.import:{[module] 
+    if[module in key .py.imp;
+      -1"Module already imported";
+      :(::)];
+  
+    imported:@[.py.import0; module; .py.failed[module]];
+    if[imported;
+      modFmt:"'",string[module],"'";
+      -1"Imported python module ", modFmt];
+    };
+
+  .py.import0:{[module]
+    import:.py.imp[module]:.p.import module;
+    reflect:.py.reflect[import];
+    classes:reflect[module;`classes];
+  
+    .py.ref[module]:classes;
+  
+    mapping:` sv (`.py.mod; module);
+    mapping set .ut.eachKV[classes; .py.map[import]];
+    1b};
+
+
+some text break
+
+.. code-block:: q
+
+  Some q code
+
+  rootFunctionOneLine:{[arg1] :`symbol; };
+ 
+  rootFunctionMultiLine:{[arg1]
+    :`symbol;
+   };
+  
+  .namespace.function.oneLine:{[arg1] :`symbol; };
+  
+  .namespace.function.multiLine:{[arg1]
+    :symbol;
+   };
+ 
+  select col1, col2 from tab where arg = 40
+  select from tab where arg = 40
+
+    
+.. code:: python
+
+  def setup(sphinx):
+      sys.path.insert(0, os.path.abspath('.'))
+      from qlex import KdbLexer
+      sphinx.add_lexer('q', KdbLexer())
+
+
+temp check:
+
+
+
+.. code-block:: q
+  
+
   .py.list:.py.builtin[`:list;<];
 
   list:builtin[`:list;<];
