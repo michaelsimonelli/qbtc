@@ -12,11 +12,11 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
-# import qsyntax
-# from sphinx.highlighting import lexers
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
+import qsyntax
+from sphinx.highlighting import lexers
 
 # -- Project information -----------------------------------------------------
 
@@ -67,9 +67,9 @@ language = None
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'monokai' 
+pygments_style = 'monokai'
 
-#lexers['q'] = qsyntax.KdbLexer()
+lexers['q'] = qsyntax.KdbLexer()
 
 # -- Options for HTML output -------------------------------------------------
 
