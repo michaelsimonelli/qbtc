@@ -75,3 +75,43 @@ safe check yadda ydasdf
 .. code-block:: q
   
   select col1 from tab where t=1
+  select col1 from tab where t=1
+  
+  .py.reflect:{[module]
+    import: .py.imp[module];
+    mdinfo: .py.mod_info[import];
+
+    .py.meta[module]:mdinfo;
+
+    classes: mdinfo[`classes];
+    reflect: (key classes)!.py.cxt[import; classes];
+
+    .pq[module],:reflect;
+
+    1b};
+
+  rootFunctionOneLine:{[arg1] :`symbol; };
+ 
+  rootFunctionMultiLine:{[arg1]
+    :`symbol;
+   };
+  
+  .namespace.function.oneLine:{[arg1] :`symbol; };
+  
+  .namespace.function.multiLine:{[arg1]
+    :symbol;
+   };
+
+  .py.import:{[module] 
+  if[module in key .py.imp;
+    -1"Module already imported"; :(::)];
+
+  imported: @[{.py.imp[x]:.p.import x;1b}; module; .py.importError[module]];
+
+  if[imported;
+    ns:` sv (`.pq; module);
+    ns set (!/) enlist each (`;::);
+    -1"Imported python module '",string[module],"'"];
+  };
+
+  
