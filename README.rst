@@ -73,7 +73,7 @@ Start
 safe check yadda ydasdf 
 
 
-.. code-block:: q
+.. code-block:: kdb
   
 
   .py.list:.py.builtin[`:list;<];
@@ -148,16 +148,7 @@ temp check:
 
   .py.list:.py.builtin[`:list;<];
 
-  list:builtin[`:list;<];
-
-  list:builtin[`:list;<];
-
-  /# @function import Wrapper around .p.import
-  /#  Auto-maps the python module to native kdb functions
-  /#  Auto-generates module metadata reference dictionary
-  /# @param module (sym) module argument
-  .py.import:{[module] 
-    if[module in key .py.imp;
+  if[module in key .py.imp;
       -1"Module already imported";
       :(::)];
   
@@ -181,7 +172,7 @@ temp check:
 
 some text break
 
-.. code-block:: q
+.. code-block:: kdb
 
   Some q code
 

@@ -12,12 +12,12 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
-from pygments.lexers.q import KdbLexer
-from sphinx.highlighting import lexers
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
+from sphinx.highlighting import lexers
+from qsyntax import KdbLexer
 # -- Project information -----------------------------------------------------
 
 project = 'cbproQ'
