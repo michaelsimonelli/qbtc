@@ -70,3 +70,8 @@ Start
 
 
 safe check yadda ydasdf 
+
+
+.. code-block:: q
+  
+  select col1 from tab where t=1
