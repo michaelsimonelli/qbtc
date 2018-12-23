@@ -19,9 +19,7 @@
 .ut.round:{ ("j"$y*x) % x:xexp[10]x };
 .ut.dict:{ (!/) flip $[not .ut.isNested x; enlist;]x };
 .ut.table:{ x[0]!/:1_x };
-
-.ut.ktRXD:{ k:keys x;v:enlist'[y];w:(=),'(k,'enlist'[v]);r:?[x;w;();()];r };
-.ut.ktDel:{ k:keys x;v:enlist'[y];w:$[1=count y;enlist(=;first k;v);(=),'(k,'enlist'[v])];r:![x;w;0b;`symbol$()];r };
+.ut.eachKV:{key [x]y'x};
 
 .ut.typ.nums:raze@[2#enlist 5h$where" "<>20#.Q.t;0;neg];
 .ut.type.vector:1!.ut.table (enlist(`name;`num;`char)),flip{(key'[x$\:()];x;.Q.t x)}.ut.filter[.ut.typ.nums;{x>0}];
@@ -48,10 +46,9 @@
 
 .ut.params.update:{[component_;name_;val_]
   tab:`.ut.params.registered;
-  tabKey:(component_;name_);
-  param:.ut.ktRXD[tab;tabKey];
+  param:exec from tab where component = component_, name = name_;
 
-  .ut.ktDel[tab; tabKey];
+  delete from tab where component = component_, name = name_;
   if[not .ut.isNull c:.ut.raze param[`combo];
     if[not val_ in c; 
       '`$"ERROR: Value needs to be in combo list"];

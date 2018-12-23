@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Welcome to cbproQ’s documentation! &mdash; cbproQ 1 documentation</title>
+  <title>cbproQ &mdash; cbproQ 1 documentation</title>
   
 
   
@@ -25,6 +25,8 @@
   
 
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/reset-syntax.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" /> 
@@ -78,8 +80,18 @@
             
               <!-- Local TOC -->
               <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Welcome to cbproQ’s documentation!</a></li>
+<li><a class="reference internal" href="#">cbproQ</a><ul>
+<li><a class="reference internal" href="#setup">Setup</a><ul>
+<li><a class="reference internal" href="#requirements">Requirements</a></li>
+<li><a class="reference internal" href="#install">Install</a></li>
+<li><a class="reference internal" href="#configuration">Configuration</a></li>
+<li><a class="reference internal" href="#start">Start</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#welcome-to-cbproq-s-documentation">Welcome to cbproQ’s documentation!</a></li>
 <li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</li>
 </ul>
 </div>
             
@@ -125,7 +137,7 @@
     
       <li><a href="#">Docs</a> &raquo;</li>
         
-      <li>Welcome to cbproQ’s documentation!</li>
+      <li>cbproQ</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -144,18 +156,133 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="welcome-to-cbproq-s-documentation">
-<h1>Welcome to cbproQ’s documentation!<a class="headerlink" href="#welcome-to-cbproq-s-documentation" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="cbproq">
+<h1>cbproQ<a class="headerlink" href="#cbproq" title="Permalink to this headline">¶</a></h1>
+<p>Example trading environment.</p>
+<p>A fully fledged, q based trading API with real time, integrated websocket feeds, and order book engine.</p>
+<p>Uses embedPy to map a python Coinbase Pro API libaray natively in Q.</p>
+<p>The interface utilizes embedPy to map a python coinbase package natively into kdb.</p>
+<p>Easy to use functionality to interact with all levels of the coinbase API: Execute trades, view trade history, account details, and more.</p>
+<p>Provides a subscription model to stream and save data for selected products.</p>
+<p>Order book engine for storing and sorting top of book and book depth for selected products.</p>
+<div class="section" id="setup">
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="requirements">
+<h3>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Anaconda Python</li>
+<li>Coinbase Pro account (sandbox strongly suggested)</li>
+<li><em>All testing performed on Ubuntu 18.04</em></li>
+</ul>
+</div>
+<div class="section" id="install">
+<h3>Install<a class="headerlink" href="#install" title="Permalink to this headline">¶</a></h3>
+<p><strong>Step 1</strong> Clone or download the repo</p>
+<p><strong>Step 2</strong> Create conda environment. In terminal run:</p>
+<div class="code bash highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="n">env</span> <span class="o">-</span><span class="n">f</span> <span class="n">environment</span><span class="o">.</span><span class="n">yml</span>
+</pre></div>
+</div>
+<p><strong>Note:</strong> The conda environment will download and install all required dependencies, including its own 64-bit kdb/q installation.
+The first time you run q from this environment, you will be prompted by a standard license agreement message and will be asked to enter some personal details such as Name and email address. Make sure to enter a valid email address because you will be asked to confirm your email address within 72 hours or your license will expire. If you already have a kdb+ license associated with your email address then kdb will just use that license after you enter that email address.</p>
+</div>
+<div class="section" id="configuration">
+<h3>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h3>
+<p>The Coinbase Pro API key is required to run cbproQ
+The API key is provided to kdb via the following envrinment variables:</p>
+<ul class="simple">
+<li>CBPRO_PRIV_KEY</li>
+<li>CBPRO_PRIV_SECRET</li>
+<li>CBPRO_PRIV_PASSPHRASE</li>
+</ul>
+<p>An example startup script is included to provide your API key and launch cbproQ.
+Please reference <em>startup_example</em> for details</p>
+</div>
+<div class="section" id="start">
+<h3>Start<a class="headerlink" href="#start" title="Permalink to this headline">¶</a></h3>
+<p><strong>Step 1</strong> Activate conda environment. In terminal run:</p>
+<p><em>Note:</em> Environment name can be changed via environment.yml, cbpro is the default.</p>
+<div class="code bash highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="n">cbpro</span>
+</pre></div>
+</div>
+<p><strong>Step 2</strong> Initialze KDB.  In terminal run:</p>
+<div class="code bash highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">./</span><span class="n">startup_example</span>
+</pre></div>
+</div>
+<p>safe check yadda ydasdf</p>
+<div class="highlight-q notranslate"><div class="highlight"><pre><span></span><span class="c1">/# @function list Wrapper around .p.import</span>
+<span class="nx">.py.list</span><span class="o">:</span><span class="kd">.py.builtin</span><span class="p">[</span><span class="ss">`</span><span class="o">:</span><span class="nx">list</span><span class="p">;</span><span class="o">&lt;</span><span class="p">];</span><span class="w"></span>
+
+<span class="nl">list</span><span class="o">:</span><span class="kd">builtin</span><span class="p">[</span><span class="ss">`</span><span class="o">:</span><span class="nx">list</span><span class="p">;</span><span class="o">&lt;</span><span class="p">];</span><span class="w"></span>
+
+<span class="nl">list</span><span class="o">:</span><span class="kd">builtin</span><span class="p">[</span><span class="ss">`</span><span class="o">:</span><span class="nx">list</span><span class="p">;</span><span class="o">&lt;</span><span class="p">];</span><span class="w"></span>
+
+<span class="c1">/# @function import Wrapper around .p.import</span>
+<span class="c1">/#  Auto-maps the python module to native kdb functions</span>
+<span class="c1">/#  Auto-generates module metadata reference dictionary</span>
+<span class="c1">/# @param module (sym) module argument</span>
+<span class="nf">.py.import</span><span class="o">:{</span><span class="p">[</span><span class="nx">module</span><span class="p">]</span><span class="w"></span>
+<span class="w">  </span><span class="kd">if</span><span class="p">[</span><span class="nx">module</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="ow">key</span><span class="w"> </span><span class="nx">.py.imp</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="o">-</span><span class="mi">1</span><span class="s">&quot;Module already imported&quot;</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="o">:</span><span class="p">(</span><span class="o">::</span><span class="p">)];</span><span class="w"></span>
+
+<span class="w">  </span><span class="nl">imported</span><span class="o">:@</span><span class="p">[</span><span class="nx">.py.import0</span><span class="p">;</span><span class="w"> </span><span class="nx">module</span><span class="p">;</span><span class="w"> </span><span class="kd">.py.failed</span><span class="p">[</span><span class="nx">module</span><span class="p">]];</span><span class="w"></span>
+<span class="w">  </span><span class="kd">if</span><span class="p">[</span><span class="nx">imported</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="nl">modFmt</span><span class="o">:</span><span class="s">&quot;&#39;&quot;</span><span class="p">,</span><span class="kd">string</span><span class="p">[</span><span class="nx">module</span><span class="p">],</span><span class="s">&quot;&#39;&quot;</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="o">-</span><span class="mi">1</span><span class="s">&quot;Imported python module &quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">modFmt</span><span class="p">];</span><span class="w"></span>
+<span class="w">  </span><span class="p">};</span><span class="w"></span>
+
+<span class="nf">.py.import0</span><span class="o">:{</span><span class="p">[</span><span class="nx">module</span><span class="p">]</span><span class="w"></span>
+<span class="w">  </span><span class="nl">import</span><span class="o">:</span><span class="kd">.py.imp</span><span class="p">[</span><span class="nx">module</span><span class="p">]</span><span class="o">:</span><span class="nx">.p.import</span><span class="w"> </span><span class="nx">module</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="nl">reflect</span><span class="o">:</span><span class="kd">.py.reflect</span><span class="p">[</span><span class="nx">import</span><span class="p">];</span><span class="w"></span>
+<span class="w">  </span><span class="nl">classes</span><span class="o">:</span><span class="kd">reflect</span><span class="p">[</span><span class="nx">module</span><span class="p">;</span><span class="ss">`classes]</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">  </span><span class="kd">.py.ref</span><span class="p">[</span><span class="nx">module</span><span class="p">]</span><span class="o">:</span><span class="nx">classes</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">  </span><span class="nl">mapping</span><span class="o">:</span><span class="ss">`</span><span class="w"> </span><span class="ow">sv</span><span class="w"> </span><span class="p">(</span><span class="ss">`.py.mod</span><span class="p">;</span><span class="w"> </span><span class="nx">module</span><span class="p">);</span><span class="w"></span>
+<span class="w">  </span><span class="nx">mapping</span><span class="w"> </span><span class="ow">set</span><span class="w"> </span><span class="kd">.ut.eachKV</span><span class="p">[</span><span class="nx">classes</span><span class="p">;</span><span class="w"> </span><span class="kd">.py.map</span><span class="p">[</span><span class="nx">import</span><span class="p">]];</span><span class="w"></span>
+<span class="w">  </span><span class="m">1b</span><span class="p">};</span><span class="w"></span>
+</pre></div>
+</div>
+<p>some text break</p>
+<div class="highlight-q notranslate"><div class="highlight"><pre><span></span><span class="nx">Some</span><span class="w"> </span><span class="nx">q</span><span class="w"> </span><span class="nx">code</span><span class="w"></span>
+
+<span class="nf">rootFunctionOneLine</span><span class="o">:{</span><span class="p">[</span><span class="nx">arg1</span><span class="p">]</span><span class="w"> </span><span class="o">:</span><span class="ss">`symbol</span><span class="p">;</span><span class="w"> </span><span class="p">};</span><span class="w"></span>
+
+<span class="nf">rootFunctionMultiLine</span><span class="o">:{</span><span class="p">[</span><span class="nx">arg1</span><span class="p">]</span><span class="w"></span>
+<span class="w">  </span><span class="o">:</span><span class="ss">`symbol</span><span class="p">;</span><span class="w"></span>
+<span class="w"> </span><span class="p">};</span><span class="w"></span>
+
+<span class="nf">.namespace.function.oneLine</span><span class="o">:{</span><span class="p">[</span><span class="nx">arg1</span><span class="p">]</span><span class="w"> </span><span class="o">:</span><span class="ss">`symbol</span><span class="p">;</span><span class="w"> </span><span class="p">};</span><span class="w"></span>
+
+<span class="nf">.namespace.function.multiLine</span><span class="o">:{</span><span class="p">[</span><span class="nx">arg1</span><span class="p">]</span><span class="w"></span>
+<span class="w">  </span><span class="o">:</span><span class="nx">symbol</span><span class="p">;</span><span class="w"></span>
+<span class="w"> </span><span class="p">};</span><span class="w"></span>
+
+<span class="ow">select</span><span class="w"> </span><span class="nx">col1</span><span class="p">,</span><span class="w"> </span><span class="nx">col2</span><span class="w"> </span><span class="ow">from</span><span class="w"> </span><span class="nx">tab</span><span class="w"> </span><span class="ow">where</span><span class="w"> </span><span class="nx">arg</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">40</span><span class="w"></span>
+<span class="ow">select</span><span class="w"> </span><span class="ow">from</span><span class="w"> </span><span class="nx">tab</span><span class="w"> </span><span class="ow">where</span><span class="w"> </span><span class="nx">arg</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">40</span><span class="w"></span>
+</pre></div>
+</div>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">setup</span><span class="p">(</span><span class="n">sphinx</span><span class="p">):</span>
+    <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">))</span>
+    <span class="kn">from</span> <span class="nn">qlex</span> <span class="k">import</span> <span class="n">KdbLexer</span>
+    <span class="n">sphinx</span><span class="o">.</span><span class="n">add_lexer</span><span class="p">(</span><span class="s1">&#39;q&#39;</span><span class="p">,</span> <span class="n">KdbLexer</span><span class="p">())</span>
+</pre></div>
+</div>
+<p>temp check:</p>
+</div>
+</div>
+<div class="section" id="welcome-to-cbproq-s-documentation">
+<h2>Welcome to cbproQ’s documentation!<a class="headerlink" href="#welcome-to-cbproq-s-documentation" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 </div>
 </div>
 <div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
-<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
 <li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
 </ul>
+</div>
 </div>
 
 

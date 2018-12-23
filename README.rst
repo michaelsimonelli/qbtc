@@ -3,21 +3,21 @@
 cbproQ
 ******
 
-Example trading environment.
+Coinbase Pro API and execution.
 
-A fully fledged, q based trading API with real time, integrated websocket feeds, and order book engine.
+A versatile, high-performance example trading application.
+Leverages the embedPy interface for python integration to seamlessly import and map an existing library API natively into Q.
+This POC is meant to be an introduction into the world of electronic trading, while also exploring the versatility and high-performance capabilities of q.
 
-Uses embedPy to map a python Coinbase Pro API libaray natively in Q.
+SANDBOX MODE STRONGLY RECOMMENDED. LIVE TRADES CAN BE EXCUTED VIA THIS API.
 
-The interface utilizes embedPy to map a python coinbase package natively into kdb.
+This paper's primary focus is the structure and interaction with the trading environment, with topics ranging from:
 
-Easy to use functionality to interact with all levels of the coinbase API: Execute trades, view trade history, account details, and more.
-
-Provides a subscription model to stream and save data for selected products.
-
-Order book engine for storing and sorting top of book and book depth for selected products.
-
-
+* application configuration
+* data feed subscription and dissemination
+* order book engine/market data consumption
+* API execution and interaction
+ 
 Setup
 =====
 
@@ -70,12 +70,73 @@ Start
     ./startup_example
 
 
-
-safe check:
-
+safe check yadda ydasdf 
 
 
-.. code:: kdb
+.. code-block:: q
+  
+  /# @function list Wrapper around .p.import
+  .py.list:.py.builtin[`:list;<];
 
-    tmpD:`a`b`c!1 2 3
+  list:builtin[`:list;<];
+
+  list:builtin[`:list;<];
+
+  /# @function import Wrapper around .p.import
+  /#  Auto-maps the python module to native kdb functions
+  /#  Auto-generates module metadata reference dictionary
+  /# @param module (sym) module argument
+  .py.import:{[module] 
+    if[module in key .py.imp;
+      -1"Module already imported";
+      :(::)];
+  
+    imported:@[.py.import0; module; .py.failed[module]];
+    if[imported;
+      modFmt:"'",string[module],"'";
+      -1"Imported python module ", modFmt];
+    };
+
+  .py.import0:{[module]
+    import:.py.imp[module]:.p.import module;
+    reflect:.py.reflect[import];
+    classes:reflect[module;`classes];
+  
+    .py.ref[module]:classes;
+  
+    mapping:` sv (`.py.mod; module);
+    mapping set .ut.eachKV[classes; .py.map[import]];
+    1b};
+
+
+some text break
+
+.. code-block:: q
+
+  Some q code
+
+  rootFunctionOneLine:{[arg1] :`symbol; };
+ 
+  rootFunctionMultiLine:{[arg1]
+    :`symbol;
+   };
+  
+  .namespace.function.oneLine:{[arg1] :`symbol; };
+  
+  .namespace.function.multiLine:{[arg1]
+    :symbol;
+   };
+ 
+  select col1, col2 from tab where arg = 40
+  select from tab where arg = 40
+
     
+.. code:: python
+
+  def setup(sphinx):
+      sys.path.insert(0, os.path.abspath('.'))
+      from qlex import KdbLexer
+      sphinx.add_lexer('q', KdbLexer())
+
+
+temp check:

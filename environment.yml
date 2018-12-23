@@ -5,3 +5,4 @@ dependencies:
 - kx::embedPy
 - pip:
   - cbpro
+  - pyment

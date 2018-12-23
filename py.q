@@ -1,124 +1,128 @@
 \l p.q
-\l py.p
 \l ut.q
+\l reflect.p
 
-///
-// Namespace: .py
-//  Simple embedPy framework.
-//  Focus on seamless integration.
-// ________________________________________________________
+.py.imp:()!();
 
-///
-// Dictionary: imports
-//  Stores imported python modules, metadata.
-//  Drill down dictionary:
-//  module
-//  |--> class1
-//         |---> prop1 [getter;setter;deleter]
-//         ----> func1 [args;default;values;required;doc]
-//         ----> func2 [args;default;values;required;doc]
-.py.imports:()!();
+.py.meta.:(::);
 
-///
-// Function: import
-//  Wrapper around .p.import
-//  Auto-maps the python module to native kdb functions
-//  Auto-generates module metadata reference dictionary
+.py.mod_info:.p.get[`module_info;<];
+
 .py.import:{[module] 
-  if[module in key .py.imports;
-    -1"Module already imported";
-    :(::)];
+  if[module in key .py.imp;
+    -1"Module already imported"; :(::)];
 
-  imported:@[.py.priv.onImport; module; 
-              .py.priv.onImportFailed[module]];
+  imported: @[{.py.imp[x]:.p.import x;1b}; module; .py.importError[module]];
 
   if[imported;
-    modFmt:"'",string[module],"'";
-    -1"Imported python module ", modFmt];
+    ns:` sv (`.pq; module);
+    ns set (!/) enlist each (`;::);
+    -1"Imported python module '",string[module],"'"];
   };
 
-.py.pget:{[pinst; pattr]
-  pval:pinst[hsym pattr]`;
-  pval};
+.py.reflect:{[module]
+  import: .py.imp[module];
+  mdinfo: .py.mod_info[import];
 
-.py.pset:{[pinst; pattr; pval]
-  pinst[:; hsym pattr; pval];
-  .py.pget[pinst; pattr]};
+  .py.meta[module]:mdinfo;
 
+  classes: mdinfo[`classes];
+  reflect: (key classes)!.py.cxt[import; classes];
 
-
-
-.py.builtin:.p.import[`builtins];
-
-.py.next:.py.builtin[`:next;<];
-.py.list:.py.builtin[`:list;<];
-///
-// Function: onImport
-//  Called on .py.import to trap import errors
-.py.priv.onImport:{[module]
-  .py[module]:.p.import module;
-  .py.imports[module]:.py.priv.get_mod_info[.py[module]];
-  .py.priv.mapper[module] each key .py.imports[module];
+  .pq[module],:reflect;
+  
   1b};
 
-///
-// Function: onImportFailed
-//  Called on .py.import to throw import errors
-.py.priv.onImportFailed:{[module;error]
-  modFmt:"'",string[module],"'";
-  errFmt:"(",error,")";
-  -1"Python module ",modFmt," failed with: ", errFmt;
+.py.importError:{[module; error]
+  -1"Python module '",string[module],"' failed with: ", "(",error,")";
   0b};
 
+.py.cxt:{[import; classes]
+  projection:{
+    obj: x hsym y;
+    atr: z`attributes;
+    pro: .py.proj[obj; atr];
+    pro}[import]./:flip(key;value)@\:classes;
+  projection};
 
-// constant python built-in 
-.py.priv.t:`$"__init__";
+.py.proj:{[pyObj; attrib; args]
+  data: attrib`data;
+  prop: attrib`properties;
+  func: attrib`functions;
 
-///
-// Function: get_mod_info 
-//  Gets imported python module metadata
-.py.priv.get_mod_info:.p.get[`get_mod_info;<];
+  init: func[`$"__init__"];
+  params: init[`parameters];
+  required: params[::;`required];
 
-///
-// Function: get_inst_attr 
-//  Gets python object instance attributes
-.py.priv.get_inst_attr:.p.get[`get_inst_attr;<];
+  if[(.ut.isNull args) and (any required);
+    '"Missing required parameters: ",", " sv string where required];
+  
+  pyArgs: .py.args[args];
+  pyInst: pyObj[pyArgs];
 
-///
-// Function: mapper 
-//  Maps a python class to a native q context
-.py.priv.mapper:{[module;class]
-  context:` sv (`;`pm;module;class);
-  context set .py.priv.generic[module;class];
-  };
+  func _: `$"__init__";
+  vars: .pq.builtins.vars[pyInst];
+  docs: (enlist `dum)!enlist (::);
 
-///
-// Function: generic
-//  Called as a projection to dynamically set
-//  imported python functions as a q callable object
-//
-// Note: q mapped python modules are stored in .pm namespace
-// 
-// Example:
-//  .pm.module.class.func[]
-//  accepts 1st positional, *args, or **kwargs
-//  *Does not accept multiple positional args
-.py.priv.generic:{[module;class;args]
-  metadata:.py.imports[module;class];
-  required:metadata[.py.priv.t;`required];
-  if[(.ut.isNull args) and (not .ut.isNull required); 
-      '"Missing required parameters"];
+  if[count data; docs[`data]:data];
+  if[count prop; docs[`prop]:prop];
+  if[count func; docs[`func]:func];
+  if[count vars; docs[`vars]:vars];
 
-  py_module:.py[module];
-  py_object:py_module hsym class;
-  py_params:.py.priv.args[args];
-  py_instance:py_object[py_params];
-  py_functions:(key metadata) except .py.priv.t;
-  py_context:py_functions!py_instance[;<]'[(hsym @\:py_functions)];
-  q_context:py_context,(`attr`help`pget`pset!({[x;y].py.priv.get_inst_attr[x]}[py_instance];{[x;y;z].py.imports[x;y]}[module;class];.py.pget[py_instance];.py.pset[py_instance]));
-  q_context};
+  mD: .py.mapData[pyInst; data];
+  mP: .py.mapProp[pyInst; prop];
+  mF: .py.mapFunc[pyInst; func];
+  mV: .py.mapVars[pyInst; vars];
+  mS: (enlist `docs_)! enlist docs _ `dum;
 
-.py.priv.args:{[args]
-  args:.ut.strToSym[args];
-  $[.ut.isDict args; pykwargs; pyarglist] args
-  };
+  cxt: mD,mP,mF,mV;
+  cxt,:mS;
+  cxt};
+
+.py.args:{[args]
+  args: .ut.strToSym[args];
+  if[args=(::); :args];
+  args: $[.ut.isDict args; pykwargs; pyarglist] args;
+  args};
+
+.py.mapData:{[obj; d]
+  k: key d;
+  v: obj@'hsym k;
+  m: k!v;
+  m};
+
+.py.mapProp:{[ins; d]
+  m: .ut.eachKV[d;{
+      h: hsym y;
+      d: (enlist `get)!(enlist x[h;]);
+      if[z`setter; d[`set]:x[:;h;]];
+      d}[ins;]];
+  m};
+
+.py.mapFunc:{[ins; d]
+  f: key d;
+  m: f!ins[;<]@'hsym f;
+  m};
+
+.py.mapVars:{[ins; vars]
+  k: key vars;
+  h: hsym k;
+  v:{
+    g: ins[x;];
+    s: ins[:;x;];
+    d:`get`set!(g;s);
+    d} each h;
+  m: (!/)($[1>=count k;.ut.enlist each;](k;v));
+  m}
+
+.py.attrs:.p.get[`get_attrs;<];
+
+.py.imap:{[p; f]
+  i: .py.imp[p];
+  m: f!i[;<]@'hsym f;
+  .pq[p],:m;
+  m};
+
+.py.import[`builtins];
+
+.py.imap[`builtins;`list`next`vars`str];

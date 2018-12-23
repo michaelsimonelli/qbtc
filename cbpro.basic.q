@@ -1,13 +1,31 @@
 \l ut.q
 \l py.q
 \c 1000 1000
-
 .py.import[`cbpro];
 
 .ut.params.registerOptional[`cb; `CBPRO_ENV;             `dev; `dev`live; "Execution environment"];
 .ut.params.registerOptional[`cb; `CBPRO_PRIV_KEY;        `;     `;        "API private key"];
 .ut.params.registerOptional[`cb; `CBPRO_PRIV_SECRET;     `;     `;        "API private secret"];
 .ut.params.registerOptional[`cb; `CBPRO_PRIV_PASSPHRASE; `;     `;        "API private passphrase"];
+
+
+
+.py.mod`cbpro
+
+.py.mod.cbpro
+
+.cbpro.PC:.py.mod.cbpro.PublicClient[]
+.cbpro.PC.get_currencies[]
+.cbpro.PC.docs_.func[`get_currencies]
+.ut.params.update
+t
+exec from t where component = `cb, name = `CBPRO_ENV
+flip 0!f#t
+.ut.ktRXD[t;`cb`CBPRO_ENV]
+f:enlist k!`cb`CBPRO_ENV
+.ut.params.registered
+.ut.params.registerd
+
 
 .cb.endpoints.api:.ut.dict (
   (`live;"https://api.pro.coinbase.com");
