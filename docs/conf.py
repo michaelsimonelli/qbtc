@@ -15,9 +15,9 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
-
+import qsyntax
 from sphinx.highlighting import lexers
-from qsyntax import KdbLexer
+
 # -- Project information -----------------------------------------------------
 
 project = 'cbproQ'
@@ -69,7 +69,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'monokai' 
 
-lexers['q'] = KdbLexer
+lexers['q'] = qsyntax.KdbLexer
 
 # -- Options for HTML output -------------------------------------------------
 
