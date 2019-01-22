@@ -1,39 +1,42 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-tmp/
-docs/_build/
-
-
-
-*.pyc
+*.py[cod]
+*$py.class
 *.egg
 *.so
 *.swp
 
-.dir-locals.el
-.cache/
-.idea
-.mypy_cache/
-.pytest_cache/
-.ropeproject/
-TAGS
-.tags
-.tox/
-.tx/
-.venv/
-.coverage
-htmlcov
-.DS_Store
-sphinx/pycode/Grammar*pickle
-distribute-*
-
-env/
+# Distribution / packaging
+.Python
 build/
+_build/
+develop-eggs/
 dist/
-Sphinx.egg-info/
-doc/_build/
-doc/locale/
-tests/.coverage
-tests/build/
-utils/regression_test.js
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.idea/
 
-node_modules/
+# Sphinx documentation
+docs/_build/
+
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+tmp/
