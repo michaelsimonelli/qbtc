@@ -5,23 +5,20 @@ cbproQ
 
 Coinbase Pro API Engine.
 
-This is a POC application, with the goal to implement a q/kdb based trading engine/API.
+| This is a POC application, with the goal to implement a q/kdb based trading engine/API.
+| The app leverages fusion technology, the embedPy interface, to extend python libraries and map them natively in q.
 
-The app leverages fusion technology, the embedPy interface, to extend python libraries and map them natively in q.
+**Core Components:**
 
+- Data feed subscription and dissemination
+- Order book engine/market data consumption
+- API execution and interaction
+- Application configuration
 
-With the fusion of python and q, operations that would have been difficult or complex in q alone, are easily executed with little overhead or development.
+| With the fusion of python and q, operations that would have been difficult or complex in q alone, are easily executed with little overhead or development.
+| Further, by incorporating such operations natively, the application can leverage the processing power and speed of the q server directly, and maintain API calls, data storage, and analysis, all in one process.
 
-Further, by incorporating such operations natively, the application can leverage the processing power and speed of the q server directly, and maintain API calls, data storage, and analysis, all in one process.
-
-
-Covers the core components of a basic, live trading system 
-* data feed subscription and dissemination
-* order book engine/market data consumption
-* API execution and interaction
-* application configuration
-
-SANDBOX MODE STRONGLY RECOMMENDED. LIVE TRADES CAN BE EXCUTED VIA THIS API.
+**SANDBOX MODE STRONGLY RECOMMENDED. LIVE TRADES CAN BE EXCUTED VIA THIS API.**
  
 Setup
 =====
@@ -73,3 +70,50 @@ Start
 .. code:: bash
 
     ./startup_example
+
+
+
+safe check yadda ydasdf 
+
+
+.. code-block:: q
+  
+  select col1 from tab where t=1
+  select col1 from tab where t=1
+  
+  .py.reflect:{[module]
+    import: .py.imp[module];
+    mdinfo: .py.mod_info[import];
+
+    .py.meta[module]:mdinfo;
+
+    classes: mdinfo[`classes];
+    reflect: (key classes)!.py.cxt[import; classes];
+
+    .pq[module],:reflect;
+
+    1b};
+
+  rootFunctionOneLine:{[arg1] :`symbol; };
+ 
+  rootFunctionMultiLine:{[arg1]
+    :`symbol;
+   };
+  
+  .namespace.function.oneLine:{[arg1] :`symbol; };
+  
+  .namespace.function.multiLine:{[arg1]
+    :symbol;
+   };
+
+  .py.import:{[module] 
+  if[module in key .py.imp;
+    -1"Module already imported"; :(::)];
+
+  imported: @[{.py.imp[x]:.p.import x;1b}; module; .py.importError[module]];
+
+  if[imported;
+    ns:` sv (`.pq; module);
+    ns set (!/) enlist each (`;::);
+    -1"Imported python module '",string[module],"'"];
+  };
