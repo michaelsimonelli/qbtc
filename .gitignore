@@ -29,7 +29,8 @@ MANIFEST
 
 # Sphinx documentation
 docs/_build/
-
+docs/Makefile
+docs/make.bat
 
 # Environments
 .env
