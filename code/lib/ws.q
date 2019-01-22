@@ -1,34 +1,22 @@
 
-.ws.conns:([handle:`int$()] hostname:`$(); callback:`$());
+// callback to process websocket messages
+.z.ws:{value[.ws.W[.z.w]`cb]x};
 
-.z.ws:{value[.ws.conns[.z.w]`callback]x};
-.z.wc:{0N!(.z.Z; "ws close"; x); delete from `.ws.conns where handle=x};
+.z.wc:{0N!(.z.Z; "ws close"; x); delete from `.ws.W where fd=x};
 
-.ws.header.default:.ut.dict(
-  ("Host"                  ; "");
-  ("Origin"                ; "" );
-  ("Upgrade"               ; "websocket");
-  ("Connection"            ; "Upgrade");
-  ("User-Agent"            ; "KDB WebSocket/",string .z.K);
-  ("Sec-WebSocket-Version" ; "13"));
+.ws.W:([fd:`int$()] hn:`$(); cb:`$());
 
-.ws.header.build:{[host;custom]
-  header:.ws.header.default;
-  header[("Host";"Origin")]:(host;host);
-  if[not .ut.isNull custom; header,:custom];
-  fields:(key header),\:": ";
-  values:(value header),\:"\r\n";
-  header:raze fields,'values;
-  header};
+.ws.hap:{[url]
+  if[not 10h = type url; '"URL must string"];
+  .Q.hap $[.z.K<3.6;hsym `$;]url};
 
-.ws.open:{[url;callback;custom]
-  part:.Q.hap url;
-  host:part 2;
-  endpoint:part 3;
-  header:.ws.header.build[host;custom];
-  request:"GET ",endpoint," HTTP/1.1\r\n",header,"\r\n";
-  response:(hsym`$url) request;
-  handle:response 0; / if needed, http message in response 1
-  upsert[`.ws.conns;(handle;`$host; callback)];
-  0N!(.z.Z;"ws open";handle);   
-  neg handle};
+.ws.open:{[url;cb]
+  u: `prot`user`host`endp!.ws.hap url;
+  k: ("Host"; "Origin"; "Upgrade"; "Connection"; "Sec-WebSocket-Version");
+  v: (u`host; u`host; "websocket"; "Upgrade"; "13");
+  d: ("\r\n" sv ": " sv/: flip (k;v)),"\r\n\r\n";
+  r: "GET ",u[`endp]," HTTP/1.1\r\n",d;
+  h: first (hsym `$raze u`prot`host) r;
+  .ws.W[h]: (`$u`host; cb);
+  0N!(.z.Z; "ws open"; h);   
+  neg h};
