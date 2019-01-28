@@ -1,6 +1,6 @@
 \l p.q
-\l ut.q
-\l reflect.p
+\l ./code/lib/ut.q
+\l ./code/lib/reflect.p
 
 .py.imp:()!();
 
