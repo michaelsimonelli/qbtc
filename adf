@@ -1,0 +1,16 @@
+Help on method get_currencies in module cbpro.public_client:
+
+ggeett__ccuurrrreenncciieess() method of cbpro.public_client.PublicClient instance
+    List known currencies.
+    
+    Returns:
+        list: List of currencies. Example::
+            [{
+                "id": "BTC",
+                "name": "Bitcoin",
+                "min_size": "0.00000001"
+            }, {
+                "id": "USD",
+                "name": "United States Dollar",
+                "min_size": "0.01000000"
+            }]
