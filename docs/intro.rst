@@ -127,7 +127,7 @@ Reference script ``startup_example`` for example application config.
 
 Application parameters are registered via the follow implementation:
 
-.. code:: kdb
+.. code-block:: q
 
     .ut.params.registerOptional[`cb; `CBPRO_ENV;             `dev; "Execution environment"];
     .ut.params.registerOptional[`cb; `CBPRO_PRIV_KEY;        `;    "API private key"];
