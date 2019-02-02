@@ -1,4 +1,6 @@
 
+.app.import[`log]
+
 // callback to process websocket messages
 .z.ws:{value[.ws.W[.z.w]`cb]x};
 

@@ -1,12 +1,36 @@
 #!/bin/bash
+process=$1
 
-. ./resetqenv
+if [ "$process" = '' ] ; then
+    echo "process name required"
+    exit 1
+fi
 
-export TVAR=0
-export QPORT=5000
+# OLD_QHOME is triggered by conda activate env
+# points QLIC to new QHOME location 
+if [ ! -z ${OLD_QHOME+x} ]; then
+    export QLIC="$QHOME"
+    alias q="rlwrap -r $QHOME/l64/q"
+fi
+
+timestamp() {
+  date "+%Y%m%d_%H%M%S"
+}
+
+# App config
+export APP_HOME_DIR="$PWD"
+export APP_LIB_DIR="$APP_HOME_DIR/lib"
+export APP_CODE_DIR="$APP_HOME_DIR/code"
+export APP_LOGS_DIR="$APP_HOME_DIR/logs"
+export APP_LOG_FILE=${APP_HOME_DIR}/logs/${process}_$(timestamp)
+
+# Proc config
 export CBPRO_ENV="dev"
+export CBPRO_PORT=5000
 export CBPRO_PRIV_KEY="d7d381cdbb3d0de770cea8a637aa0379"
 export CBPRO_PRIV_SECRET="AnXRvi7fgsF7mCcRIibJB4tx2DSoxN1ovcusZcviJggkwYMzMFSekW82Y94CzJScUArSiBe6uOMkafDpWs/cpw=="
 export CBPRO_PRIV_PASSPHRASE="ue37tvk07q9"
 
-q -p $QPORT
+# Install rlwrap or switch command
+rlwrap -r $QHOME/l64/q -p $CBPRO_PORT
+# q -p $CBPRO_PORT

@@ -1,5 +1,5 @@
 ###############
-Getting Started
+Python Mapper
 ###############
 
 Setup

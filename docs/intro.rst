@@ -56,16 +56,16 @@ The script ``resetqenv`` is provided to help reconcile multiple Q environments. 
 
 Coinbase Pro
 ============
-Integrated Q client for the `Coinbase Pro API<https://docs.pro.coinbase.com/>`_
+Integrated Q client for the Coinbase Pro `API <https://docs.pro.coinbase.com/>`_
 
 API Support
 ^^^^^^^^^^^
-`REST<https://docs.pro.coinbase.com/#api>`_
+`REST <https://docs.pro.coinbase.com/#api>`_
     - Requires authentication.
     - Provides access to order placement and account information.
     - Public client available with reduced functionality.
 
-`WebSocket Feed<https://docs.pro.coinbase.com/#websocket-feed>`_
+`WebSocket <https://docs.pro.coinbase.com/#websocket-feed>`_
     - Provides market data feed.
     - No authentication required.
 
@@ -108,11 +108,32 @@ Start
 
     conda activate cbpro
 
-**Step 2** Initialize KDB.  In terminal run:
+**Step 2** Initialize base kdb app.  In terminal run:
 
 .. code:: bash
 
-    ./startup_example
+    ./startup_example base
+
+This script will initialize the base client framework in the kdb server.
+
+It provides functions to instantiate a public or authenticated client manually or via the app config. 
+
+No feeds or subscriptions are included in the base script - it only provides mappings to the raw API calls.
+
+However, it is useful to gain familiarity with the structure of the q mapping and how it's implemented.
+
+
+Reference script ``startup_example`` for example application config.
+
+Application parameters are registered via the follow implementation:
+
+.. code:: kdb
+
+    .ut.params.registerOptional[`cb; `CBPRO_ENV;             `dev; "Execution environment"];
+    .ut.params.registerOptional[`cb; `CBPRO_PRIV_KEY;        `;    "API private key"];
+    .ut.params.registerOptional[`cb; `CBPRO_PRIV_SECRET;     `;    "API private secret"];
+    .ut.params.registerOptional[`cb; `CBPRO_PRIV_PASSPHRASE; `;    "API private passphrase"];
+
 
 Registered application parameters are sourced via environment variables.
 

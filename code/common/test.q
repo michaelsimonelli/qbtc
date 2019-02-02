@@ -1,18 +1,6 @@
-/
-==================================
-Module mapping library for embedPy
-==================================
-Maps a python module to a q context
-Drill down dictionary:
-module
-|--> class1
-       |---> prop1 [getter;setter;deleter]
-       ----> func1 [args;default;values;required;doc]
-       ----> func2 [args;default;values;required;doc]
-\
-
 \l p.q
-\l lib/reflect.p
+\l ut.q
+\l reflect.p
 
 .py.imp:()!();
 
@@ -43,7 +31,7 @@ module
   0b};
 
 .py.project:{[imp; cls]
-  p: {key [x]y'x}[cls;{
+  p: .ut.eachKV[cls;{
       obj: x hsym y;
       atr: z`attributes;
       cxt: .py.cxt[obj; atr];
@@ -59,12 +47,11 @@ module
   params: init[`parameters];
   required: params[::;`required];
 
-  if[(args~(::)) and (any required);
+  if[(.ut.isNull args) and (any required);
     '"Missing required parameters: ",", " sv string where required];
 
   args: .py.args[args];
-  apply: $[1<count args;.;@];
-  inst: apply[obj;args];
+  inst: obj[args];
 
   func _: `$"__init__";
   vars: .pq.builtins.vars[inst];
@@ -84,24 +71,10 @@ module
   cx[`docs_]:docs;
   cx};
 
-.py.strToSym:{ if[any {(type x) in ((5h$til 20)_10),98 99h}@\:x; :.z.s'[x]]; $[10h = abs type x; `$x; x] };
-.py.isDict:{ (99h = type x) and (not .Q.qt x) };
-.py.isGList:{ 0h = type x };
-
 .py.args:{[args]
-  if[args~(::);:args];
-  
-  args: .py.strToSym[args];
-
-  if[.py.isDict args;
-    if[10h = type key args;
-      args:({`$x} each key args)!value args];
-    ]; 
-
-  args: $[.py.isDict args; pykwargs args; 
-          (.py.isGList args) and (.py.isDict last args);
-            (pyarglist -1 _ args; pykwargs last args); 
-              pyarglist args];
+  args: .ut.strToSym[args];
+  if[args~(::); -1"nullargs";:args];
+  args: $[.ut.isDict args; pykwargs; pyarglist] args;
   args};
 
 .py.mapData:{[obj; d]
@@ -111,7 +84,7 @@ module
   m};
 
 .py.mapProp:{[ins; d]
-  m: {key [x]y'x}[d;{
+  m: .ut.eachKV[d;{
       h: hsym y;
       d: (enlist `get)!(enlist x[h;]);
       if[z`setter; d[`set]:x[:;h;]];
@@ -129,7 +102,7 @@ module
   v:{ g: x[y;];
       s: x[:;y;];
       `get`set!(g;s)}[ins;] each h;
-  m: (!/)($[1>=count k; {$[not (0h <= type x) and (20h > type x);enlist x; x]} each;](k;v));
+  m: (!/)($[1>=count k;.ut.enlist each;](k;v));
   m};
 
 .py.attrs:.p.get[`get_attrs;<];
