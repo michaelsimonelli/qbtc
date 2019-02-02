@@ -133,8 +133,3 @@ Application parameters are registered via the follow implementation:
     .ut.params.registerOptional[`cb; `CBPRO_PRIV_KEY;        `;    "API private key"];
     .ut.params.registerOptional[`cb; `CBPRO_PRIV_SECRET;     `;    "API private secret"];
     .ut.params.registerOptional[`cb; `CBPRO_PRIV_PASSPHRASE; `;    "API private passphrase"];
-
-
-Registered application parameters are sourced via environment variables.
-
-Reference script ``startup_example`` for example application config.
