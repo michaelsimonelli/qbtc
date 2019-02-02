@@ -12,13 +12,14 @@
 .ut.isTable:{ .Q.qt x };
 .ut.isDict:{ $[99h = type x;not .ut.isTable x; 0b] };
 .ut.isNull:{ $[.ut.isAtom[x] or .ut.isList[x] or x ~ (::); $[.ut.isGList[x]; all .ut.isNull each x; all null x]; .ut.isTable[x] or .ut.isDict[x];$[count x;0b;1b];0b ] };
-.ut.strToSym:{ if[any .ut[`isRList`isDict]@\:x; :.z.s'[x]]; $[any .ut[`isString`isChar]@\:x; `$x; x] };
+.ut.strToSym:{ if[any {(type x) in ((5h$til 20)_10),98 99h}@\:x; :.z.s'[x]]; $[10h = abs type x; `$x; x] };
 .ut.enlist:{ $[not .ut.isList x;enlist x; x] };
 .ut.raze:{ $[.ut.isList x; [tmp:raze x; $[1 = count tmp; first tmp; tmp] ]; x] };
 .ut.repeat:{ (.ut.enlist x)!count[x]#enlist[y] };
 .ut.dict:{ (!/) flip $[not all .ut.isRList each x; enlist;]x };
 .ut.table:{ x[0]!/:1_x };
 .ut.eachKV:{key [x]y'x};
+
 
 ///
 // Type Info

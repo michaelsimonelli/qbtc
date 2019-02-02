@@ -1,6 +1,11 @@
+/
+==================================
+Module mapping library for embedPy
+==================================
+\
+
 \l p.q
-\l ./code/lib/ut.q
-\l ./code/lib/reflect.p
+system"l ",getenv `REFLECTION_PY
 
 .py.imp:()!();
 
@@ -31,7 +36,7 @@
   0b};
 
 .py.project:{[imp; cls]
-  p: .ut.eachKV[cls;{
+  p: {key [x]y'x}[cls;{
       obj: x hsym y;
       atr: z`attributes;
       cxt: .py.cxt[obj; atr];
@@ -47,7 +52,7 @@
   params: init[`parameters];
   required: params[::;`required];
 
-  if[(.ut.isNull args) and (any required);
+  if[(args~(::)) and (any required);
     '"Missing required parameters: ",", " sv string where required];
 
   args: .py.args[args];
@@ -72,9 +77,13 @@
   cx};
 
 .py.args:{[args]
-  args: .ut.strToSym[args];
   if[args~(::); -1"nullargs";:args];
-  args: $[.ut.isDict args; pykwargs; pyarglist] args;
+  args: .py.strToSym[args];
+  if[isDict:(99h = type args) and (not .Q.qt args);
+    if[10h = type key args;
+      args:({`$x} each key args)!value args];
+    ]; 
+  args: $[isDict; pykwargs; pyarglist] args;
   args};
 
 .py.mapData:{[obj; d]
@@ -84,7 +93,7 @@
   m};
 
 .py.mapProp:{[ins; d]
-  m: .ut.eachKV[d;{
+  m: {key [x]y'x}[d;{
       h: hsym y;
       d: (enlist `get)!(enlist x[h;]);
       if[z`setter; d[`set]:x[:;h;]];
@@ -102,7 +111,7 @@
   v:{ g: x[y;];
       s: x[:;y;];
       `get`set!(g;s)}[ins;] each h;
-  m: (!/)($[1>=count k;.ut.enlist each;](k;v));
+  m: (!/)($[1>=count k; {$[not (0h <= type x) and (20h > type x);enlist x; x]} each;](k;v));
   m};
 
 .py.attrs:.p.get[`get_attrs;<];
