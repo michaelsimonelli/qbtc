@@ -52,6 +52,11 @@ def class_info(obj):
     return cls_attr
 
 
+def member_info(obj):
+    mem = Member(obj)
+    return mem.qmap()
+
+
 def get_attrs(ins):
     inst_vars = {}
     for key, val in vars(ins):
@@ -71,11 +76,6 @@ def get_functions(obj):
     func = [Member(m[1], m[0]) for m in getmembers(obj, isroutine) if not m[0].startswith('_')]
     func = [dict(name=f.name, doc=f.doc, obj=f.obj, ) for f in func]
     return func
-
-
-def member_info(obj):
-    mem = Member(obj)
-    return mem.qmap()
 
 
 #############################
@@ -181,7 +181,7 @@ class PropertyInfo(AttrInfo):
     def __init__(self, attr: Attribute):
         super().__init__(attr)
         prop = self.obj
-        accessors = dict(getter='fget', setter='fset', deleter='fdel')
+        accessors = dict(getter='fget', setter='fset')
         self.properties = {k: not not getattr(prop, v) for k, v in accessors.items()}
 
 

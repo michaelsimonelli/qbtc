@@ -9,7 +9,7 @@
 .ws.W:([fd:`int$()] hn:`$(); cb:`$());
 
 .ws.hap:{[url]
-  if[not 10h = type url; '"URL must string"];
+  if[not 10h = type url; '"URL expects type string"];
   .Q.hap $[.z.K<3.6;hsym `$;]url};
 
 .ws.open:{[url;cb]

@@ -1,24 +1,48 @@
-
+.app.PROC:`$getenv `APP_PROC;
 .app.HOME_DIR:getenv `APP_HOME_DIR;
 .app.CODE_DIR:getenv `APP_CODE_DIR;
-.app.IMPORTS:`log`util`websocket!`lg`ut`ws;
-.app.loaded:();
-.app.proc:();
+.app.CORE_DIR:getenv `APP_CORE_DIR;
+.app.LIBR_DIR:getenv `APP_LIBR_DIR;
+.app.IMPORTS:`log`util`websocket`embedpy`extendpy`reflection!("lg.q";"ut.q";"ws.q";"p.q";"py.q";"reflect.p");
 
-.app.import:{[imp]
-  if[imp in .app.loaded; :(::)];
-  if[null file:.app.IMPORTS[imp];
-    '"invalidImport - chose from: ",", " sv string key .app.IMPORTS];
-  dir:.app.CODE_DIR,"/common/";
-  path:dir,string[file],".q";
+.app.imported:();
+
+out:{-1 (string .z.z)," ", x};
+
+///
+// Imports python script/file
+// 
+// parameters:
+// import [symbol] - name of python script/file (no extension)
+.app.import:{[import]
+  if[import in .app.imported; :(::)];
+  if[not any file:.app.IMPORTS[import];
+    '"invalidSelection - chose from: ",", " sv string key .app.IMPORTS];
+  path:$[import <> `embedpy;.app.LIBR_DIR,"/";""],file;
   system "l ", path;
-  .app.loaded,:imp;
+  out "Imported: ",string[import];
+  .app.imported,:import;
   };
 
-.app.process:{[proc]
-  dir:.app.CODE_DIR,"/core/";
-  path:dir,string[proc],".q";
+///
+// Executes process init script
+//
+// parameters:
+// proc [symbol] - name of process to start
+.app.main:{[proc]
+  if[null proc; :(::)];
+  path:.app.CORE_DIR,"/",string[proc],".q";
+  out "Initialize ",string[proc]," process";
   system "l ", path;
-  .app.proc:proc;
   };
 
+// Import required components
+// view `.app.imported` to see list of all imported components
+.app.import[`extendpy];
+.app.import[`websocket];
+
+// Import and reflect cbpro python module
+.py.import[`cbpro];
+.py.reflect[`cbpro; `.qoinbase];
+
+.app.main[.app.PROC];

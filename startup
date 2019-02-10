@@ -1,11 +1,6 @@
 #!/bin/bash
 process=$1
 
-if [ "$process" = '' ] ; then
-    echo "process name required"
-    exit 1
-fi
-
 # OLD_QHOME is triggered by conda activate env
 # points QLIC to new QHOME location 
 if [ ! -z ${OLD_QHOME+x} ]; then
@@ -18,19 +13,26 @@ timestamp() {
 }
 
 # App config
+export APP_ENV="dev"
+export APP_NAME="qoinbase"
+export APP_PROC="$process"
+export APP_PORT=5000;
 export APP_HOME_DIR="$PWD"
-export APP_LIB_DIR="$APP_HOME_DIR/lib"
 export APP_CODE_DIR="$APP_HOME_DIR/code"
+export APP_CORE_DIR="$APP_CODE_DIR/core"
+export APP_LIBR_DIR="$APP_CODE_DIR/lib"
 export APP_LOGS_DIR="$APP_HOME_DIR/logs"
 export APP_LOG_FILE=${APP_HOME_DIR}/logs/${process}_$(timestamp)
 
 # Proc config
-export CBPRO_ENV="dev"
-export CBPRO_PORT=5000
-export CBPRO_PRIV_KEY="d7d381cdbb3d0de770cea8a637aa0379"
-export CBPRO_PRIV_SECRET="AnXRvi7fgsF7mCcRIibJB4tx2DSoxN1ovcusZcviJggkwYMzMFSekW82Y94CzJScUArSiBe6uOMkafDpWs/cpw=="
-export CBPRO_PRIV_PASSPHRASE="ue37tvk07q9"
+export CBPRO_API_KEY="d7d381cdbb3d0de770cea8a637aa0379"
+export CBPRO_API_SECRET="AnXRvi7fgsF7mCcRIibJB4tx2DSoxN1ovcusZcviJggkwYMzMFSekW82Y94CzJScUArSiBe6uOMkafDpWs/cpw=="
+export CBPRO_API_PASSPHRASE="ue37tvk07q9"
+export CBPRO_API_URL="https://api.pro.coinbase.com";
+
 
 # Install rlwrap or switch command
-rlwrap -r $QHOME/l64/q -p $CBPRO_PORT
-# q -p $CBPRO_PORT
+rlwrap -r $QHOME/l64/q "$APP_CORE_DIR/app.q" -p "$APP_PORT" -c 50 500
+
+
+

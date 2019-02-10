@@ -19,7 +19,8 @@
 .ut.dict:{ (!/) flip $[not all .ut.isRList each x; enlist;]x };
 .ut.table:{ x[0]!/:1_x };
 .ut.eachKV:{key [x]y'x};
-
+.ut.exists:{x ~ key x};
+.ut.assert:{ [x;y] if[not x;'"Assert failed: ",y] };
 
 ///
 // Type Info
@@ -28,6 +29,18 @@
 .ut.typ.num:raze@[2#enlist 5h$where" "<>20#.Q.t;0;neg];
 .ut.typ.ref:1!.ut.table (enlist(`int;`chr;`sym)),flip{(x;?[x<0;upper .Q.t abs x;.Q.t x];key'[x$\:()])}.ut.typ.num
 .ut.type:{ t:type x;((enlist `int)!enlist t),.ut.typ.ref[t] };
+
+.ut.iso.cmap:(23;22;20)!("0Z";"00Z";".000Z");
+.ut.iso2Q:{ "Z"$ $[24<>ct:count x;ssr[x;"Z";.ut.iso.cmap ct];x]};
+.ut.q2ISO:{[qtime]
+  if[not (typ: type qtime) in (-12h;-15h);'"datetime or timestamp expected"];
+  if[-15h = typ;qtime:"p"$qtime];
+  iso:-10 _ .h.iso8601 "j"$qtime;
+  iso};
+
+.ut.epoch.secondsInDay:24 * 60* 60;
+.ut.epoch.dateTimeDiff:(`datetime$2000.01.01)-(`datetime$1970.01.01);
+.ut.epoch2Q:{`datetime$(x % .ut.epoch.secondsInDay) - .ut.epoch.dateTimeDiff}
 
 ///
 // Parameter Registration API
@@ -93,6 +106,7 @@
   param:getenv name;
 
   if[.ut.isNull param; :0];
+
   if[1<count param; param:string .ut.raze `$"|" vs param];
 
   typ:.ut.type .ut.params.priv.registered[component,name; `val];

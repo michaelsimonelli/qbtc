@@ -108,28 +108,18 @@ Start
 
     conda activate cbpro
 
-**Step 2** Initialize base kdb app.  In terminal run:
+**Step 2** Initialize base qoinbase app.  In terminal run:
 
 .. code:: bash
 
-    ./startup_example base
+    ./startup_example
 
-This script will initialize the base client framework in the kdb server.
+This script will initialize the qoinbase framework in the kdb server.
 
-It provides functions to instantiate a public or authenticated client manually or via the app config. 
+And you're ready to start executing API calls.
 
-No feeds or subscriptions are included in the base script - it only provides mappings to the raw API calls.
-
-However, it is useful to gain familiarity with the structure of the q mapping and how it's implemented.
-
+Follow examples here :ref:`usage-label`
 
 Reference script ``startup_example`` for example application config.
 
-Application parameters are registered via the follow implementation:
 
-.. code-block:: q
-
-    .ut.params.registerOptional[`cb; `CBPRO_ENV;             `dev; "Execution environment"];
-    .ut.params.registerOptional[`cb; `CBPRO_PRIV_KEY;        `;    "API private key"];
-    .ut.params.registerOptional[`cb; `CBPRO_PRIV_SECRET;     `;    "API private secret"];
-    .ut.params.registerOptional[`cb; `CBPRO_PRIV_PASSPHRASE; `;    "API private passphrase"];
