@@ -29,10 +29,10 @@ out:{-1 (string .z.z)," ", x};
 //
 // parameters:
 // proc [symbol] - name of process to start
-.app.main:{[proc]
+.app.process:{[proc]
   if[null proc; :(::)];
   path:.app.CORE_DIR,"/",string[proc],".q";
-  out "Initialize ",string[proc]," process";
+  out "Load ",string[proc]," process";
   system "l ", path;
   };
 
@@ -42,7 +42,7 @@ out:{-1 (string .z.z)," ", x};
 .app.import[`websocket];
 
 // Import and reflect cbpro python module
-.py.import[`cbpro];
-.py.reflect[`cbpro; `.qoinbase];
+.py.import[`qoinbase];
+.py.reflect[`qoinbase];
 
-.app.main[.app.PROC];
+.app.process[.app.PROC];

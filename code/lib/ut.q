@@ -3,8 +3,8 @@
 // ______________________________________________
 
 .ut.isSym:{ -11h = type x };
+.ut.isStr:{ 10h = type x };
 .ut.isChar:{ -10h = type x };
-.ut.isString:{ 10h = type x };
 .ut.isAtom:{ (0h > type x) and (-20h < type x) };
 .ut.isList:{ (0h <= type x) and (20h > type x) };
 .ut.isRList:{ (type x) in (5h$til 20)_10 };

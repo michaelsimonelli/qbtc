@@ -40,12 +40,12 @@ Module mapping library for embedPy
 //
 // parameters:
 // module [symbol] - module to reflect (must be imported)
-.py.reflect:{[module;target]
+.py.reflect:{[module]
   pyModule: .py.modules[module];
   modInfo: .py.moduleInfo[pyModule];
   clsInfo: modInfo[`classes];
   project: .py.priv.project[pyModule; clsInfo];
-  target set project;
+  (` sv `,module ) set project;
   .py.meta[module]:modInfo;
   1b};
 
