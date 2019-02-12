@@ -1,5 +1,5 @@
-CoinbasePro-Q Documentation
-===========================
+Qoinbase Documentation
+=======================
 
 Overview
 --------
