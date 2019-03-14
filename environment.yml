@@ -5,5 +5,5 @@ dependencies:
 - openssl=1.0.2
 - pip
 - pip:
-  - cbpro
   - pyment
+  - "git+https://github.com/michaelsimonelli/qoinbase-python.git"

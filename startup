@@ -1,38 +1,113 @@
 #!/bin/bash
-process=$1
+echo "go"
+echo "${BASH_SOURCE[0]}"
+echo "src"
+exit 1
 
-# OLD_QHOME is triggered by conda activate env
-# points QLIC to new QHOME location 
-if [ ! -z ${OLD_QHOME+x} ]; then
-    export QLIC="$QHOME"
-    alias q="rlwrap -r $QHOME/l64/q"
+
+usage="startup [-h] [-s|--start -p|--port -e|--env] -- start up script to launch a coinbase pro API client or trading process
+
+where:
+    -h|--help)  show usage
+    -s|--start) select start-up process (required)
+                base [base framework] - loads the basic, boilerplate framework: no clients, no data feed (interactive)
+                ngen [trading engine] - initializes the trading engine: initializes api clients, subscribes to feed handler
+                feed [feed handler]   - initializes the feed handler: connects to websocket feed, processes message updates, publishes to trading engine
+    -p|--port)  sets the process port (default: 5000)
+    -e|--env)   sets the process environment, configures API/feed environment and respective endpoints (default: dev)
+                        Trade    |   Data     |   Feed
+                dev  -  Sandbox      Sandbox      Sandbox
+                qa   -  Sandbox      Live         Live
+                live -  Live         Live         Live"
+
+while test $# -gt 0; do
+  case "$1" in
+    -h|--help)
+        echo "$usage"
+        exit
+        ;;
+    -s|--start)
+        shift
+        start=$1
+        shift
+        ;;
+    -p|--port)
+        shift
+        CUST_PORT=$1
+        shift
+        ;;
+    -e|--env)
+        shift
+        env=$1
+        shift
+        ;;
+    *)
+       echo "$1 is not a recognized flag!"
+       return 1;
+       ;;
+  esac  
+done
+
+export APP_NAME="cbpro"
+export APP_HOME="$PWD"
+export APP_CODE="$APP_HOME/code"
+export APP_CONF="$APP_HOME/conf"
+export APP_LOGS="$APP_HOME/logs"
+export APP_CORE="$APP_CODE/core"
+export APP_LIB="$APP_CODE/lib"
+
+startup=(base ngen feed)
+envs=(dev qa live)
+
+if [[ ! "${startup[@]}" =~ "${start}" ]]; then
+  echo "ERROR: Invalid [start] argument: '$start'"
+  echo "Valid entries are: $(echo ${startup[@]} | sed 's/ /, /g'))"
+  exit 1
 fi
 
-timestamp() {
-  date "+%Y%m%d_%H%M%S"
-}
+if [[ ! "${envs[@]}" =~ "${env}" ]]; then
+  echo "ERROR: Invalid [env] argument: '$env'"
+  echo "Valid entries are: $(echo ${envs[@]} | sed 's/ /, /g'))"
+  exit 1
+fi
 
-# App config
-export APP_ENV="dev"
-export APP_NAME="qoinbase"
-export APP_PROC="$process"
-export APP_PORT=5000;
-export APP_HOME_DIR="$PWD"
-export APP_CODE_DIR="$APP_HOME_DIR/code"
-export APP_CORE_DIR="$APP_CODE_DIR/core"
-export APP_LIBR_DIR="$APP_CODE_DIR/lib"
-export APP_LOGS_DIR="$APP_HOME_DIR/logs"
-export APP_LOG_FILE=${APP_HOME_DIR}/logs/${process}_$(timestamp)
+if [[ "$CUST_PORT" ]]; then
+  port=$CUST_PORT
+else
+  for i in "${!startup[@]}"; do
+    if [[ "${startup[$i]}" = "${start}" ]]; then
+      port=$(($APP_BASE_PORT + $i))
+    fi
+  done
+fi
+
+# OLD_QHOME is triggered by conda activate env
+# points QLIC to new QHOME location
+if [ ! -z ${OLD_QHOME+x} ]; then
+  export QLIC="$QHOME"
+  export QCMD="$QHOME/l64/q"
+  if  [ -x "$(command -v rlwrap)" ]; then
+    QCMD="rlwrap -r $QCMD"
+  fi
+fi
 
 # Proc config
-export CBPRO_API_KEY="d7d381cdbb3d0de770cea8a637aa0379"
-export CBPRO_API_SECRET="AnXRvi7fgsF7mCcRIibJB4tx2DSoxN1ovcusZcviJggkwYMzMFSekW82Y94CzJScUArSiBe6uOMkafDpWs/cpw=="
-export CBPRO_API_PASSPHRASE="ue37tvk07q9"
-export CBPRO_API_URL="https://api.pro.coinbase.com";
+export PROC_ENV=$env
+export PROC_HOST="localhost"
+export PROC_PORT=$port
+export PROC_TYPE="$start"
+export PROC_NAME="$APP_ROOT.$PROC_TYPE"
+export PROC_LOG=$APP_HOME_DIR/logs/${PROC_TYPE}_$(date "+%Y%m%d")
+touch "$PROC_LOG"
 
+# Coinbase Pro API config
+export CB_REST_API_ENDPOINTS="https://api.pro.coinbase.com|https://api-public.sandbox.pro.coinbase.com"
+export CB_FEED_API_ENDPOINTS="wss://ws-feed.pro.coinbase.com|wss://ws-feed-public.sandbox.pro.coinbase.com"
+export CB_PRIV_KEY="d7d381cdbb3d0de770cea8a637aa0379"
+export CB_PRIV_SECRET="AnXRvi7fgsF7mCcRIibJB4tx2DSoxN1ovcusZcviJggkwYMzMFSekW82Y94CzJScUArSiBe6uOMkafDpWs/cpw=="
+export CB_PRIV_PASSPHRASE="ue37tvk07q9"
 
 # Install rlwrap or switch command
-rlwrap -r $QHOME/l64/q "$APP_CORE_DIR/app.q" -p "$APP_PORT" -c 50 500
-
-
+echo "$QCMD"
+$QCMD "$APP_HOME_DIR/app.q" -p "$PROC_PORT" -c 50 500
 

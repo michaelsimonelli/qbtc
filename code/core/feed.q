@@ -1,103 +1,87 @@
-.app.process[`basic];
+.cb.import[`ws];
+.cb.import[`ref];
 
-md:([sym:`symbol$()]bp:`float$();ap:`float$();tp:`float$();vwap:`float$());
+lst:()!();
+bids.:(::);
+asks.:(::);
 
-quote:([] time:`datetime$();sym:`symbol$();bpx:`float$();apx:`float$());
-
-trade:([] time:`datetime$();sym:`symbol$();price:`float$();bid:`float$();ask:`float$();side:`$();size:`float$();id:`long$());
-
-book.bids.:(::);
-book.asks.:(::);
-
-.state.bids.:(::);
-.state.asks.:(::);
-
-.qb.fullBook:{[sym]
-  b:`bids`bqty xcol book.bids[sym];
-  a:`asks`aqty xcol book.asks[sym];
-  (b,'a)};
-
-.qb.viewBook:{[sym;depth] depth sublist .qb.fullBook[sym]};
-
-.qb.vwapBook:{[sym;bs;depth] 
-  side: (`buy`sell!`asks`bids)[bs];
-  data: depth sublist book[side; sym];
-  vwap: exec qty wavg price from data;
-  vwap};
-
-.state.rebalance:{[side;sym]
-  .[`.state; (side; sym); {(where x=0)_x}];
-  .[`.state; (side; sym); .state.sort[side]];
-  upd: .state.upd[side; sym];
-  upd};
-
-.state.sort:{[side;data]
-  sortF: $[`bids=side; desc; asc];
-  sortD: 500 sublist (sortF[key data]#data);
-  sortD};
-
-.state.upd:{[side;sym]
-  snap: flip `price`qty!25 sublist'(key; value)@\:.state[side; sym];
-  if[upd:not book[side; sym]~snap;
-    book[side; sym]:snap];
-  upd};
-
-.upd.state:{[sym;chg]
-  price: chg 1; size: chg 2;
-  side: (`buy`sell!`bids`asks)[chg 0];
-  .state[side; sym; price]:size;
-  upd: .state.rebalance[side; sym];
-  upd};
-
-.upd.md:{[s;time;updQuote];
-  vwap: exec wavg[-5#size;-5#price] from trade where sym = s;
-  evt: (max key .state.bids[s]; min key .state.asks[s]; vwap);
-  if[any upd:where not evt=md[s; `bp`ap`vwap];
-    .[`md; (s; `bp`ap`vwap[upd]); :; evt[upd]];
-    if[updQuote; `quote upsert (time; s; evt 0; evt 1)];
-  ];
+depth: 10;  /book depth
+stage: 500; /stage depth
+ 
+// Process stage change
+//c:first c
+.stg.chg:{[s;c]
+  d: c 0; / side
+  p: c 1; / price
+  z: c 2; / size
+  / flow control by side
+  i: d=`buy;
+  t: `asks`bids i;
+  r: (asc;desc) i;
+  f: `$"ab"[i],'string `px`sz;
+  / update, remove, sort stage
+  .[t; (s; p); :; z];        
+  @[t; s; {(where 0=x)_x}];  
+  @[t; s; {stage sublist x[key y]#y}r];
+  / build book snapshot and publish if needed
+  b: f!depth sublist'(key;value)@\:t[s];
+  if[not lst[s; f]~u:b[f];
+    .feed.pub[`book; (t; s; u)]
+    lst[s]:b;
+    ];
   };
+
+
+
 
 .msg.ticker:{
   if[not any `trade_id`time in key x; :(::)];
   if[.ut.isNull x`time; :(::)];
+
   x: "SFFFSZjF"$`product_id`price`best_bid`best_ask`side`time`trade_id`last_size#x;
   x: `sym`price`bid`ask`side`time`id`size!value x;
   x: @[x; `sym; .Q.id];
   x: @[x; `time; "z"$];
+
   if[.ut.isNull x`id; x[`id]:0N];
-  .[`md; (x`sym; `tp);: ; x`price];
-  `trade upsert x;
+  .feed.pub[`trade; x];
   };
 
 .msg.l2update:{
   x: "SSZ*"$x;
-  sym: .Q.id x`product_id;
-  change: "SFF"$/:x`changes;
-  time: "p"$x`time;
-  upd: .upd.state[sym] each change;
-  if[any upd;
-    .upd.md[sym; time; 0b]];
+  t: "p"$x`time;
+  c: "SFF"$/:x`changes;
+  s: .Q.id x`product_id;
+  .stg.chg[s] each c;
   };
 
 .msg.snapshot:{
   x: "SSFF"$x;
-  x: @[x; `product_id; .Q.id];
-  x: @[x; `bids`asks; {(!/) flip x}];
-  {.state[y; x`product_id]:500 sublist x y}[x] each `bids`asks;
-  .state.rebalance[; x`product_id] each `bids`asks;
-  .upd.md[x`product_id; `; 0b];
+  s: .Q.id x`product_id;
+
+  bids[s]: sd sublist (!/) flip x`bids;
+  asks[s]: sd sublist (!/) flip x`asks;
+
+  if[not s in key lst;
+    lst[s]:`bpx`bsz`apx`asz!()];
   };
 
 .feed.upd:{
-  e: .j.k x;
-  t: `$e`type;
+  m: .j.k x;
+  t: `$m`type;
   if[t in key .msg;
-    .msg[t]e];
+    .feed.hdlr[t;m]];
   };
 
-.feed.sub:{[h;p;c]
-  p: .ut.enlist p;
+.feed.hdlr:{[t;m] @[.msg[t];m;.feed.err[t;m]]}
+
+.feed.err:{[t;m;e]
+  .feed.log.error "Message Handler Failed on [",string[t],"] update - with (",e,")";
+  .feed.bad[t],:enlist m;
+  };
+
+.feed.sub0:{[h;p;c]
+  p: .ut.enlist .ref.getPID'[p];
   c: c union `heartbeat;
   s: .j.j (`type`product_ids`channels)!("subscribe"; p; c);
   h[s];
@@ -110,10 +94,21 @@ book.asks.:(::);
   h[s];
   };  
 
-.feed.products:`$("BTC-USD";"ETH-USD");
-.feed.channels:`ticker`level2;
+.feed.pub:{[t;d]
+  h:.feed.w[t];
+  h@\:(`.upd.msg; t; d);
+  };
+
+.feed.w:`trade`book!();
+
+.feed.reg:{[t].feed.w[t],:neg .z.w};
 
 .feed.url:"wss://ws-feed.pro.coinbase.com";
+.feed.products:`BTCUSD`ETHUSD`LTCUSD;
+.feed.channels:`ticker`level2;
 .feed.handle:.ws.open[.feed.url; `.feed.upd];
-
 .feed.sub[.feed.handle; .feed.products; .feed.channels];
+
+
+
+

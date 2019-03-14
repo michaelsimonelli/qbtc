@@ -1,0 +1,9 @@
+2019.02.27T12:41:46.623 INFO (qbtc) 
+component name         | val                                       required descr                                                  
+-----------------------| ----------------------------------------------------------------------------------------------------------
+app       PROC_NAME    | qbtc                                      0        Process name                                           
+app       PROC_TEMP    | base                                      0        Process template                                       
+app       PROC_LOG     | /home/mike/shadow/cbpro/logs/app_20190227 0        Process log file                                       
+qb        CBPRO_API_ENV| dev                                       0        Coinbase API environment. Dev targets sandbox endpoints
+qb        CBPRO_MD_SRC | dev                                       0        Market data source. Dev targets sandbox feed           
+ MEM(MB): [1/68/68/0/0/8240/1509/1]

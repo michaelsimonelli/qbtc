@@ -1,0 +1,4 @@
+id,host,port
+base,localhost,5000
+ngen,localhost,5000
+feed,localhost,5001

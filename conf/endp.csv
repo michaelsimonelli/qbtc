@@ -1,0 +1,3 @@
+api,live,dev
+rest,https://api.pro.coinbase.com,https://api-public.sandbox.pro.coinbase.com
+feed,wss://ws-feed.pro.coinbase.com,wss://ws-feed-public.sandbox.pro.coinbase.com

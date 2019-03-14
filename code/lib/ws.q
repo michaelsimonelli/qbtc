@@ -1,5 +1,4 @@
 
-.app.import[`log]
 
 // callback to process websocket messages
 .z.ws:{value[.ws.W[.z.w]`cb]x};
@@ -9,7 +8,8 @@
 .ws.W:([fd:`int$()] hn:`$(); cb:`$());
 
 .ws.hap:{[url]
-  if[not 10h = type url; '"URL expects type string"];
+  if[.ut.isSym url; url: string url];
+  .ut.assert[.ut.isStr url; "URL expects type string"];
   .Q.hap $[.z.K<3.6;hsym `$;]url};
 
 .ws.open:{[url;cb]

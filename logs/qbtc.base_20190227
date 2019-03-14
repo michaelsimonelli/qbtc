@@ -1,0 +1,20 @@
+2019.02.27T13:17:47.831 INFO (qbtc.base.qbtc) test MEM(MB): [1/68/68/0/0/8240/1512/1]
+2019.02.27T13:17:51.740 INFO (qbtc.base.qbtc) ,`test MEM(MB): [1/68/68/0/0/8240/1513/1]
+2019.02.27T13:19:01.596 INFO (qbtc.base.qbtc) 
+name          val                                             descr                                                  
+---------------------------------------------------------------------------------------------------------------------
+PROC_NAME     qbtc.base                                       Process name                                           
+PROC_TEMP     base                                            Process template                                       
+PROC_LOG      /home/mike/shadow/cbpro/logs/qbtc.base_20190227 Process log file                                       
+CBPRO_API_ENV dev                                             Coinbase API environment. Dev targets sandbox endpoints
+CBPRO_MD_SRC  dev                                             Market data source. Dev targets sandbox feed           
+ MEM(MB): [1/68/68/0/0/8240/1513/1]
+2019.02.27T13:21:50.901 INFO (qbtc.base.qbtc) Starting process [qbtc.base] with: 
+name          val                                             descr                                                  
+---------------------------------------------------------------------------------------------------------------------
+PROC_NAME     qbtc.base                                       Process name                                           
+PROC_TEMP     base                                            Process template                                       
+PROC_LOG      /home/mike/shadow/cbpro/logs/qbtc.base_20190227 Process log file                                       
+CBPRO_API_ENV dev                                             Coinbase API environment. Dev targets sandbox endpoints
+CBPRO_MD_SRC  dev                                             Market data source. Dev targets sandbox feed           
+ MEM(MB): [1/68/68/0/0/8240/1513/1]

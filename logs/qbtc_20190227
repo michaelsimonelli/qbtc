@@ -1,0 +1,37 @@
+2019.02.27T13:33:20.983 INFO (qbtc.core) Starting process [qbtc] with: 
+name          val                                        descr                                                  
+----------------------------------------------------------------------------------------------------------------
+PROC_NAME     qbtc                                       Process name                                           
+PROC_HOST     silicon                                    Process host                                           
+PROC_PORT     5000                                       Process port                                           
+PROC_TEMP     base                                       Process template                                       
+PROC_LOG      /home/mike/shadow/cbpro/logs/qbtc_20190227 Process log file                                       
+CBPRO_API_ENV dev                                        Coinbase API environment. Dev targets sandbox endpoints
+CBPRO_MD_SRC  dev                                        Market data source. Dev targets sandbox feed           
+ MEM(MB): [1/68/68/0/0/8240/1505/1]
+2019.02.27T13:38:14.488 INFO (qbtc.core) Starting process [qbtc] with: 
+name           val                                        descr                                                  
+-----------------------------------------------------------------------------------------------------------------
+PROC_NAME      qbtc                                       Process name                                           
+PROC_HOST      silicon                                    Process host                                           
+PROC_PORT      5000                                       Process port                                           
+PROC_TEMP      base                                       Process template                                       
+PROC_LOG_FILE  /home/mike/shadow/cbpro/logs/qbtc_20190227 Process log file                                       
+PROC_LOG_LEVEL INFO                                       Process log level                                      
+CBPRO_API_ENV  dev                                        Coinbase API environment. Dev targets sandbox endpoints
+CBPRO_MD_SRC   dev                                        Market data source. Dev targets sandbox feed           
+ MEM(MB): [1/68/68/0/0/8240/1507/1]
+2019.02.27T13:43:04.518 INFO (qbtc.core) Starting process [qbtc] with:
+modules: util, log, extendpy
+config:
+name           val                                        descr                                                  
+-----------------------------------------------------------------------------------------------------------------
+PROC_NAME      qbtc                                       Process name                                           
+PROC_HOST      silicon                                    Process host                                           
+PROC_PORT      5000                                       Process port                                           
+PROC_TEMP      base                                       Process template                                       
+PROC_LOG_FILE  /home/mike/shadow/cbpro/logs/qbtc_20190227 Process log file                                       
+PROC_LOG_LEVEL INFO                                       Process log level                                      
+CBPRO_API_ENV  dev                                        Coinbase API environment. Dev targets sandbox endpoints
+CBPRO_MD_SRC   dev                                        Market data source. Dev targets sandbox feed           
+ MEM(MB): [1/68/68/0/0/8240/1521/1]

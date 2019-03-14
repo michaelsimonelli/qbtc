@@ -1,0 +1,4 @@
+id,    src,    api,   client,               auth
+auth,  auth,   rest,  AuthenticatedClient,  1
+data,  data,   rest,  PublicClient,         0
+feed,  data,   feed, ,                      0

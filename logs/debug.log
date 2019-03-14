@@ -1,0 +1,1816 @@
+2019.02.28T09:35:52.755 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:35:52.756 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:35:55.849 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:35:55.849 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:35:57.052 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:35:57.052 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:05.406 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:05.406 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:07.238 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:07.238 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:07.574 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:07.575 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:15.394 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:15.395 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:25.709 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:25.709 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:27.303 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:27.303 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:28.221 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:28.221 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:31.160 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:31.161 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:36.361 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:36.362 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:37.857 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:37.858 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:42.076 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:42.077 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:44.931 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:44.931 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:48.064 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:48.064 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:48.070 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:48.071 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:48.076 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:48.076 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:48.092 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:48.093 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:50.591 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:50.591 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:50.592 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:36:50.593 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:09.297 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:09.297 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:11.564 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:11.565 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:11.568 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:11.569 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:11.711 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:11.712 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:12.430 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:12.430 ERROR (cbpro.feed) Failed Message Stack:  MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:30.451 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:30.452 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:30.453 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:30.454 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:36.694 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:36.694 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:59.271 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:59.271 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:59.273 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:59.273 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:59.808 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:59.809 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:59.815 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:37:59.815 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:01.503 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:01.503 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:14.508 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:14.508 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:15.552 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:15.552 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:15.558 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:15.558 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:15.859 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:15.860 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:18.824 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:18.824 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:22.810 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:22.810 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1954/1]
+2019.02.28T09:38:29.906 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:29.906 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:34.607 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:34.607 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:34.861 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:34.861 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:34.864 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:34.864 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:34.873 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:34.873 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:36.510 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:36.510 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:39.348 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:39.349 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:40.691 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:40.692 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:42.784 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:42.784 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:54.953 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:54.954 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:57.298 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:57.298 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:59.655 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:38:59.655 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:04.544 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:04.544 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:06.629 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:06.630 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:07.161 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:07.161 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:07.600 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:07.600 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:12.702 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:12.703 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:12.932 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:12.932 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:13.430 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:13.431 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:13.451 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:13.451 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:13.483 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:13.483 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:13.486 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:13.487 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:13.765 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:13.765 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:14.692 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:14.692 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:14.705 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:14.706 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:22.225 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:22.225 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:35.451 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:35.452 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:49.918 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:49.918 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1955/1]
+2019.02.28T09:39:56.538 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:39:56.539 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:39:56.542 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:39:56.542 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:39:56.553 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:39:56.553 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:00.763 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:00.763 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:01.977 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:01.977 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:04.714 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:04.714 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:05.063 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:05.063 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:22.033 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:22.034 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:26.122 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:26.123 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:27.680 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:27.681 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:27.999 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:27.999 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:29.781 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:29.782 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:30.728 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:30.728 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:34.715 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:34.716 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:36.774 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:36.775 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:39.753 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:39.753 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:45.859 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:45.861 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:47.412 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:47.412 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:49.349 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:49.349 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:58.583 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:40:58.583 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [2/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:14.551 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:14.551 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:14.552 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:14.553 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:15.679 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:15.679 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:17.170 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:17.171 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:17.174 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:17.174 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:17.331 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:17.331 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:18.428 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:18.428 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:18.479 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:18.479 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:23.294 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:23.294 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:23.304 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:23.304 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:28.028 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:28.029 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [3/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:30.378 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [4/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:30.379 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [4/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:30.721 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [4/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:30.721 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [4/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:37.139 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [4/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:37.139 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [4/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:37.559 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [4/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:37.560 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [4/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:45.512 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:45.512 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:46.524 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:46.525 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:48.522 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:48.523 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:50.760 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:50.760 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:52.491 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:52.491 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:53.547 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:53.547 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:55.185 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:55.186 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:56.539 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:41:56.539 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:00.728 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:00.729 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:00.925 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:00.926 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.266 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.266 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.308 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.308 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.340 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.340 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.343 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.343 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.345 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.346 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.384 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.385 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.397 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.398 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.404 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:04.404 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:11.749 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:11.750 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:11.759 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:11.760 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:11.963 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:11.964 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:12.241 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:12.241 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [5/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:20.991 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:20.991 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:22.701 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:22.701 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:25.450 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:25.450 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:26.897 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:26.897 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:27.074 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:27.075 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:27.249 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:27.249 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:29.919 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:29.920 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [6/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:31.632 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:31.632 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:43.620 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:43.620 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:44.529 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:44.530 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:44.729 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:44.729 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:44.913 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:44.914 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:45.093 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:45.094 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:45.256 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:45.257 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:45.438 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:45.438 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [7/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:51.494 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:51.494 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:51.497 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:51.498 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:59.233 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:59.234 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:59.236 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:42:59.236 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:02.109 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:02.109 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:03.663 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:03.663 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:04.085 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:04.085 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:04.387 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:04.388 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:04.630 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:04.630 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:04.932 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:04.932 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:05.356 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:05.357 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:05.859 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:05.860 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:06.121 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:06.122 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:06.302 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:06.302 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:06.463 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:06.463 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:06.643 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:06.644 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:06.824 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:06.825 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:07.006 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:07.007 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:07.166 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:07.167 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[.msg.l2update;x;.feed.err]
+                    ^
+ MEM(MB): [8/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:20.192 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [9/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:20.192 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [9/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:26.149 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [9/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:26.149 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [9/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:26.853 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [9/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:26.853 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [9/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:26.854 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [9/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:26.855 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [9/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:30.014 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [9/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:30.014 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [9/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:45.808 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:45.808 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:46.562 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:46.562 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[fn;x;.feed.err]
+                    ^
+ MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:46.591 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:46.591 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:46.966 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:46.967 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[fn;x;.feed.err]
+                    ^
+ MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:47.166 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:47.166 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[fn;x;.feed.err]
+                    ^
+ MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:47.328 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:47.328 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[fn;x;.feed.err]
+                    ^
+ MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:47.509 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:47.510 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[fn;x;.feed.err]
+                    ^
+ MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:47.688 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:47.689 ERROR (cbpro.feed) Failed Message Stack: 
+  [2]  .msg.l2update:{
+  x: "SSZ*"$x;
+           ^
+  t: "p"$x`time;
+  [1]  (.Q.trp)
+
+  [0]  .Q.s .st.tmp:.Q.trp[fn;x;.feed.err]
+                    ^
+ MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:53.505 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:43:53.505 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:04.990 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:04.991 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:04.998 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:04.998 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [10/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:09.620 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [11/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:09.620 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [11/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:27.283 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [11/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:27.284 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [11/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:30.948 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:30.948 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:31.662 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:31.663 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:31.789 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:31.789 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:31.805 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:31.806 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:31.830 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:31.831 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:32.539 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:32.539 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:34.361 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:34.362 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:39.509 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:39.510 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [12/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:47.532 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [13/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:47.533 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [13/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:48.333 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [13/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:48.333 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [13/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:48.788 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [13/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:48.789 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [13/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:50.408 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [13/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:50.408 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [13/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:57.634 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [13/68/68/0/0/8240/1956/1]
+2019.02.28T09:44:57.634 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [13/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:00.042 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [13/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:00.042 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [13/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:14.429 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [14/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:14.429 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [14/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:19.189 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [15/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:19.190 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [15/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:19.192 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [15/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:19.192 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [15/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:19.608 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [15/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:19.608 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [15/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:27.208 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [15/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:27.208 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [15/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:31.200 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [15/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:31.200 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [15/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:43.192 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [15/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:43.192 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [15/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:49.386 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [16/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:49.386 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [16/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:53.571 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [16/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:53.571 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [16/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:54.620 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [16/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:54.620 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [16/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:54.808 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [16/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:54.808 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [16/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:54.811 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [16/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:54.811 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [16/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:59.613 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [16/68/68/0/0/8240/1956/1]
+2019.02.28T09:45:59.613 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [16/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:05.024 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [17/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:05.024 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [17/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:05.065 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [17/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:05.065 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [17/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:07.802 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [17/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:07.802 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [17/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:08.839 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [17/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:08.839 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [17/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:14.015 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [17/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:14.016 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [17/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:14.882 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [17/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:14.883 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [17/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:24.912 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [18/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:24.912 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [18/68/68/0/0/8240/1956/1]
+2019.02.28T09:46:30.020 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [18/68/68/0/0/8240/1957/1]
+2019.02.28T09:46:30.020 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [18/68/68/0/0/8240/1957/1]
+2019.02.28T09:46:50.103 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [19/68/68/0/0/8240/1957/1]
+2019.02.28T09:46:50.103 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [19/68/68/0/0/8240/1957/1]
+2019.02.28T09:46:57.282 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [19/68/68/0/0/8240/1957/1]
+2019.02.28T09:46:57.283 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [19/68/68/0/0/8240/1957/1]
+2019.02.28T09:46:59.042 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [19/68/68/0/0/8240/1957/1]
+2019.02.28T09:46:59.043 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [19/68/68/0/0/8240/1957/1]
+2019.02.28T09:46:59.250 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [19/68/68/0/0/8240/1957/1]
+2019.02.28T09:46:59.251 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [19/68/68/0/0/8240/1957/1]
+2019.02.28T09:47:03.590 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [19/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:03.590 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [19/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:05.694 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [19/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:05.694 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [19/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:09.072 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [20/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:09.072 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [20/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:16.083 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [20/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:16.083 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [20/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:21.826 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [20/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:21.826 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [20/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:24.690 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [20/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:24.690 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [20/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:26.983 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [20/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:26.983 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [20/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:26.996 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [20/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:26.996 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [20/68/68/0/0/8240/1958/1]
+2019.02.28T09:47:29.402 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [20/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:29.402 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [20/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:29.404 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [20/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:29.404 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [20/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:29.764 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [20/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:29.764 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [20/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:32.769 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:32.769 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:38.140 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:38.141 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:39.098 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:39.099 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:41.651 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:41.651 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:43.161 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:43.161 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:43.165 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:43.165 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:43.180 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:43.181 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:48.879 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:48.879 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [21/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:51.909 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [22/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:51.909 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [22/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:56.716 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [22/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:56.716 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [22/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:58.876 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [22/68/68/0/0/8240/1959/1]
+2019.02.28T09:47:58.877 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [22/68/68/0/0/8240/1959/1]
+2019.02.28T09:48:55.157 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [26/68/68/0/0/8240/1959/1]
+2019.02.28T09:48:55.157 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [26/68/68/0/0/8240/1959/1]
+2019.02.28T09:48:55.524 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [26/68/68/0/0/8240/1959/1]
+2019.02.28T09:48:55.524 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [26/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:05.284 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [27/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:05.285 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [27/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:09.968 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [27/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:09.968 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [27/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:23.797 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [27/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:23.797 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [27/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:26.258 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [27/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:26.258 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [27/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:27.592 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [28/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:27.593 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [28/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:27.601 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [28/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:27.601 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [28/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:29.064 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [28/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:29.064 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [28/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:37.948 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [28/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:37.948 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [28/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:47.065 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:47.066 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:47.067 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:47.067 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:55.055 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:49:55.056 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:00.705 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:00.705 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:05.769 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:05.769 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:10.118 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:10.118 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:10.359 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:10.359 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:10.360 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:10.361 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:13.897 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:13.897 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [29/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:19.755 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:19.755 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:22.947 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:22.947 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:31.651 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:31.651 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:32.481 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:32.482 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:35.214 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:35.214 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:35.459 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:35.459 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:39.370 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:39.370 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:39.371 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:39.371 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:40.177 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:40.177 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [30/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:45.628 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:45.628 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:48.130 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:48.131 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:48.890 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:48.891 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:51.688 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:51.689 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:51.944 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:51.945 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:55.377 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:55.377 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:59.897 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:50:59.897 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:00.816 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:00.817 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [31/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:12.823 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [32/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:12.823 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [32/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:13.921 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [32/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:13.921 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [32/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:16.187 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [32/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:16.188 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [32/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:18.398 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [32/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:18.398 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [32/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:28.854 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [32/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:28.855 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [32/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:31.586 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:31.587 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:37.775 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:37.775 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:42.542 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:42.542 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:43.969 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:43.970 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:43.971 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:43.971 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:44.112 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:44.113 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:44.891 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:44.891 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:45.303 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:45.303 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:46.604 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:46.605 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:47.167 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:47.167 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:47.169 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:47.169 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:51.164 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:51.165 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:51.166 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:51.166 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:55.960 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:51:55.960 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [33/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:01.764 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:01.765 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:02.975 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:02.975 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:10.117 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:10.118 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:10.121 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:10.121 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:10.125 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:10.125 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:14.755 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:14.755 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:15.204 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:15.204 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:17.827 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:17.827 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:18.780 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:18.781 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:22.162 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:22.163 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:22.392 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:22.392 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.145 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.146 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.277 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.277 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.566 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.566 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [34/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.605 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.606 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.673 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.673 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.776 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.776 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.778 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:24.778 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:28.109 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:28.109 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:28.550 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:28.550 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:36.814 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:36.814 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:39.766 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:39.767 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [35/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:54.665 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:54.665 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:55.931 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:55.931 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:55.933 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:52:55.933 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:02.779 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:02.779 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:02.781 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:02.781 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:15.238 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:15.239 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:15.241 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:15.241 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:15.329 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:15.329 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:15.330 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:15.330 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [36/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:16.147 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [37/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:16.148 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [37/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:23.981 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [37/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:23.981 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [37/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:24.925 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [37/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:24.925 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [37/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:25.145 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [37/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:25.145 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [37/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:28.130 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:28.131 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:28.133 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:28.134 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:29.644 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:29.645 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:35.869 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:35.870 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:36.119 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:36.119 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:39.509 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:39.509 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:39.512 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:39.512 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:39.513 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:39.513 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:40.007 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:40.007 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:41.798 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:41.799 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:46.243 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:46.243 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:50.549 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:53:50.549 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [38/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:05.363 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:05.364 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:05.374 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:05.375 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:05.407 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:05.407 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:05.422 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:05.422 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:05.474 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:05.475 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:09.058 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:09.058 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:09.062 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:09.062 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:09.162 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:09.162 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [39/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:12.400 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:12.401 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:17.329 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:17.329 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:17.332 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:17.333 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:18.367 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:18.368 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:20.106 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:20.107 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:21.045 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:21.045 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:21.278 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:21.279 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:26.264 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:26.264 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [40/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:29.171 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [41/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:29.172 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [41/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:31.438 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [41/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:31.439 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [41/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:46.477 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [42/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:46.477 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [42/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:46.479 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [42/68/68/0/0/8240/1959/1]
+2019.02.28T09:54:46.479 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [42/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:03.087 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [43/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:03.087 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [43/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:07.171 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [43/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:07.171 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [43/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:08.414 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [43/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:08.415 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [43/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:11.466 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [43/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:11.466 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [43/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:18.208 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [44/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:18.208 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [44/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:21.481 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [44/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:21.482 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [44/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:21.494 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [44/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:21.495 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [44/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:26.326 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [44/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:26.326 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [44/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:29.624 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [44/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:29.624 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [44/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:32.616 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [45/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:32.617 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [45/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:41.063 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [45/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:41.064 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [45/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:58.874 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [46/68/68/0/0/8240/1959/1]
+2019.02.28T09:55:58.874 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [46/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:11.130 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:11.130 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:16.162 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:16.162 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:16.164 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:16.164 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:19.593 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:19.593 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:23.587 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:23.588 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:27.784 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:27.785 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:34.929 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:34.929 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:34.933 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:34.934 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:34.938 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:34.939 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [47/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:42.355 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [49/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:42.355 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [49/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:54.224 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [49/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:54.224 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [49/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:58.549 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [49/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:58.550 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [49/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:59.529 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [49/68/68/0/0/8240/1959/1]
+2019.02.28T09:56:59.529 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [49/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:14.186 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:14.187 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:15.277 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:15.278 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:15.278 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:15.278 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:15.278 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:15.278 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:16.335 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:16.335 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:16.337 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:16.337 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:17.853 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:17.854 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:17.857 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:17.858 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:18.553 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:18.554 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:18.555 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:18.555 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:19.981 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:19.982 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:19.983 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:19.983 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:20.183 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:20.184 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:22.233 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:22.233 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [50/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:23.911 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [51/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:23.912 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [51/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:25.413 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [51/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:25.414 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [51/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:33.867 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [51/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:33.867 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [51/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:39.665 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [51/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:39.665 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [51/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:45.117 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [52/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:45.118 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [52/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:51.974 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [52/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:51.974 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [52/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:55.064 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [52/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:55.064 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [52/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:57.506 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [52/68/68/0/0/8240/1959/1]
+2019.02.28T09:57:57.506 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [52/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:10.020 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [53/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:10.021 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [53/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:17.981 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [53/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:17.981 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [53/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:18.184 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [53/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:18.185 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [53/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:24.738 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [54/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:24.739 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [54/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:28.937 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [54/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:28.937 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [54/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:34.121 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [54/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:34.122 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [54/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:37.083 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [54/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:37.084 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [54/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:37.093 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [54/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:37.093 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [54/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:37.097 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [54/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:37.097 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [54/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:43.367 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:43.368 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:45.369 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:45.369 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:46.844 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:46.845 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:55.670 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:55.670 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:58.723 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:58:58.723 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:03.516 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:03.517 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:05.558 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:05.558 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:08.873 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:08.873 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:12.385 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:12.386 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:13.383 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:13.383 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [55/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:29.706 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:29.706 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:39.298 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:39.298 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:39.301 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:39.301 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:39.310 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:39.310 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:40.454 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:40.454 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:44.572 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:44.573 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:50.796 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:50.796 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [56/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:52.015 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:52.015 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:53.512 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:53.513 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:53.713 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:53.713 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:54.048 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:54.048 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:56.708 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T09:59:56.709 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:00.530 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:00.531 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:01.235 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:01.236 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:01.238 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:01.239 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:01.247 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:01.248 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:01.256 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:01.257 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [57/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:07.536 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:07.536 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:08.138 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:08.138 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:08.141 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:08.142 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:08.149 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:08.150 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:09.730 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:09.731 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:10.309 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:10.309 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:10.330 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:10.330 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:10.340 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:10.340 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:10.347 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:10.347 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:12.228 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:12.229 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:12.664 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:12.665 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:19.285 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:19.285 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:19.287 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:19.287 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:20.034 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:20.035 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [58/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:24.832 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:24.832 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:26.671 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:26.671 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:26.876 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:26.877 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:27.590 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:27.590 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:28.194 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:28.194 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:29.722 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:29.722 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:30.612 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:30.612 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:31.028 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:31.028 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:31.070 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:31.070 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:31.451 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:31.451 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:31.996 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:31.997 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:32.720 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:32.720 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:32.949 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:32.950 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:33.817 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:33.817 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:33.931 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:33.931 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:34.632 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:34.633 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:35.539 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:35.539 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [59/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.107 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.107 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.235 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.235 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.752 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.753 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.888 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.889 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.968 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.968 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.991 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.991 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.999 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:38.999 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:39.270 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:39.271 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:42.237 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:42.237 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:45.625 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:45.625 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:47.450 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:47.450 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:54.208 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:54.208 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:54.240 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:54.240 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [60/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:55.068 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:55.069 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:58.792 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:00:58.792 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:03.922 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:03.922 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:04.002 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:04.003 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:05.423 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:05.424 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:05.703 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:05.704 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:05.708 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:05.709 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:05.720 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:05.720 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:08.504 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:08.505 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:08.575 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:08.575 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:08.584 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:08.584 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [61/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:10.369 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [62/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:10.369 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [62/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:10.374 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [62/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:10.374 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [62/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:25.225 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [63/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:25.225 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [63/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:27.891 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [63/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:27.892 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [63/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:30.888 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [63/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:30.889 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [63/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:31.840 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [63/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:31.840 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [63/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:36.392 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [63/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:36.392 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [63/68/68/0/0/8240/1959/1]
+2019.02.28T10:01:43.413 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [64/135/135/0/0/8240/1959/1]
+2019.02.28T10:01:43.413 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [64/135/135/0/0/8240/1959/1]
+2019.02.28T10:01:50.033 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [64/135/135/0/0/8240/1959/1]
+2019.02.28T10:01:50.034 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [64/135/135/0/0/8240/1959/1]
+2019.02.28T10:01:50.608 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [64/135/135/0/0/8240/1959/1]
+2019.02.28T10:01:50.608 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [64/135/135/0/0/8240/1959/1]
+2019.02.28T10:01:54.111 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [64/135/135/0/0/8240/1960/1]
+2019.02.28T10:01:54.111 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [64/135/135/0/0/8240/1960/1]
+2019.02.28T10:01:58.263 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [64/135/135/0/0/8240/1960/1]
+2019.02.28T10:01:58.263 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [64/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:04.455 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [64/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:04.455 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [64/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:06.058 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [64/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:06.059 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [64/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:11.653 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [65/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:11.653 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [65/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:14.555 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [65/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:14.555 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [65/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:21.171 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [65/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:21.171 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [65/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:23.376 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [65/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:23.376 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [65/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:27.296 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [66/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:27.297 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [66/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:27.298 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [66/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:27.298 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [66/135/135/0/0/8240/1960/1]
+2019.02.28T10:02:41.350 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [66/135/135/0/0/8240/1961/1]
+2019.02.28T10:02:41.350 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [66/135/135/0/0/8240/1961/1]
+2019.02.28T10:02:53.601 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [67/135/135/0/0/8240/1961/1]
+2019.02.28T10:02:53.601 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [67/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:02.819 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [68/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:02.819 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [68/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:04.676 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [68/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:04.676 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [68/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:05.632 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [68/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:05.632 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [68/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:14.759 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [68/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:14.760 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [68/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:16.119 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [69/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:16.119 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [69/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:20.439 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [69/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:20.439 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [69/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:28.395 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:28.396 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:35.187 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:35.188 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:35.190 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:35.190 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.303 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.303 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.312 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.313 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.389 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.389 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.391 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.392 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.525 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.525 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.530 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.530 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [71/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.580 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [72/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.580 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [72/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.583 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [72/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.583 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [72/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.620 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [72/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:40.620 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [72/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:41.905 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [72/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:41.905 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [72/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:42.676 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [72/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:42.676 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [72/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:45.159 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [72/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:45.159 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [72/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:49.152 ERROR (cbpro.feed) Message Handler Failed on [ticker] update - with (type) MEM(MB): [72/135/135/0/0/8240/1961/1]
+2019.02.28T10:03:49.152 ERROR (cbpro.feed) Failed Message Stack: 
+ MEM(MB): [72/135/135/0/0/8240/1961/1]

@@ -1,6 +1,0 @@
-#!/bin/bash
-
-if [ ! -z ${OLD_QHOME+x} ]; then
-    export QLIC="$QHOME"
-    alias q="rlwrap -r $QHOME/l64/q"
-fi

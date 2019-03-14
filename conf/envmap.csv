@@ -1,0 +1,4 @@
+env,trade,data,feed
+dev,sbox,sbox,sbox
+qa,sbox,live,live
+live,live,live,live

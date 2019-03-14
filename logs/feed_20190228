@@ -1,0 +1,25 @@
+2019.02.28T13:23:03.579 INFO (cbpro.feed) Starting process [feed] with:
+environ:
+ctg | typ  api_url                                       cli                 acc   
+----| -----------------------------------------------------------------------------
+api | dev  "https://api-public.sandbox.pro.coinbase.com" AuthenticatedClient auth  
+mkt | live "https://api.pro.coinbase.com"                PublicClient        public
+feed| live "wss://ws-feed.pro.coinbase.com"                                        
+
+modules: util, log, extendpy
+config:
+name                  val                                                                                       descr                                                                
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+APP_BASE              `cbpro                                                                                    Application base                                                     
+PROC_TYPE             `feed                                                                                     Process type                                                         
+PROC_PORT             `5001                                                                                     Process port                                                         
+PROC_HOST             `                                                                                         Process host                                                         
+PROC_LOG              `/home/mike/shadow/cbpro/logs/feed_20190228                                               Process log file                                                     
+CBPRO_PRIV_KEY        `d7d381cdbb3d0de770cea8a637aa0379                                                         Coinbase auth API private key                                        
+CBPRO_PRIV_SECRET     `AnXRvi7fgsF7mCcRIibJB4tx2DSoxN1ovcusZcviJggkwYMzMFSekW82Y94CzJScUArSiBe6uOMkafDpWs/cpw== Coinbase auth API private secret                                     
+CBPRO_PRIV_PASSPHRASE `ue37tvk07q9                                                                              Coinbase auth API private passphrase                                 
+CBPRO_API_ENV         `dev                                                                                      Coinbase API environment (execution/trade api)                       
+CBPRO_FEED_ENV        `live                                                                                     Coinbase market data environment (market data api and websocket feed)
+CBPRO_API_URL         "https://api.pro.coinbase.com"                                                            API root endpoint                                                    
+CBPRO_FEED_URL        "wss://ws-feed.pro.coinbase.com"                                                          Feed root endpoint                                                   
+ MEM(MB): [1/68/68/0/0/8240/1271/1]
