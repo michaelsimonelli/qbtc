@@ -22,6 +22,7 @@
 .ut.exists:{x ~ key x};
 .ut.assert:{ [x;y] if[not x;'"Assert failed: ",y] };
 
+/ .ut.exists:{not () ~ key x};
 ///
 // Type Info
 // ______________________________________________
